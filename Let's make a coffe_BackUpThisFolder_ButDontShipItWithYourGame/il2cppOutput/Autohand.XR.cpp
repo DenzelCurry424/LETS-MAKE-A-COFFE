@@ -1,0 +1,5709 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+struct VirtualActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename T1, typename T2, typename T3>
+struct VirtualActionInvoker3
+{
+	typedef void (*Action)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+
+struct Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC;
+struct Action_1_tC867D66471C553CFFF8707FF2C59FB7AAB03086A;
+struct Dictionary_2_tED5C369AA6EA30FAC9ECACAD9BC388C2778EF047;
+struct Dictionary_2_t58245AB7A4EB67A944A3DF601E1F70BDDEA78F24;
+struct Dictionary_2_t4A6F5802077C994F4A1D9FE1D60D1A14AFFA04B1;
+struct List_1_t578B9E4506B78BEF1B473ECC0357778E8561AE44;
+struct List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252;
+struct List_1_tF8E8A37A283D93BFE1298317FE8F489C0F9A1521;
+struct List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_tB88E7361EE76DFB3EBB7FCD60CC59ACC3E48C284;
+struct List_1_t90832B88D7207769654164CC28440CF594CC397D;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462;
+struct FingerU5BU5D_t815754A92A73203E15FBC68B1FD4A793D2BD90F7;
+struct FingerPoseDataU5BU5D_t049A1097ED0D527FBA6E87E2F83B21FE2DA08378;
+struct InputDeviceU5BU5D_t1361FC6DDFE12D211F933B024E51B7E5CF073F63;
+struct Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7;
+struct RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TeleportPointU5BU5D_tE86E1C41BF2FC6345848A455C4CC8F1AC719DDA3;
+struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct XRInputSubsystemU5BU5D_t224A541B4C0D2E3253E4D68ADF4F824AC587B11C;
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
+struct AutoHandPlayer_t659A159B183D187AB5BE6D459CD27FFD8B8459EE;
+struct AutoHandPlayerEvent_tA9E2DDAD5B1BFA5952DB14AF16FC5D35762BCED6;
+struct AutoHandSettings_t08BF418CB603F6B2E1B383815433637547B395A2;
+struct BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23;
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808;
+struct CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A;
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
+struct CollisionTracker_t02EFF05824EEA207835BBE9DB8654AE863280DC6;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct ConfigurableJoint_t8B33AB5A6B8D52493F14C4B8DBDF78A1C94ECB77;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct DistanceGrabbable_tD55433AB3FE659E15DD86915E0039A0FC1987AD9;
+struct Finger_t0C777A49177510A549060E71A03A3DD5668116A5;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct Grabbable_t469D3F66286C987192B8580F498943CB24434C83;
+struct GrabbablePose_tB602F39B2D26BC0665850FD146CE84D4FABB2153;
+struct Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E;
+struct Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F;
+struct HandAnimator_tA5C3BEB77958F4AA77D2030390FED42285EA49B0;
+struct HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59;
+struct HandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328;
+struct HandFollow_t68A804BA9A03A3E1E04D124A9B2C20C01145D8E5;
+struct HandGameObjectEvent_t887907DC43A5CF7FD4252AEE830A313D7566EAE0;
+struct HandGrabEvent_t6E5782FBAC9E7DD5392F00D261553F447AA31673;
+struct HandGrabbableHighlighter_t58E982E51599A821D84985859EAEB516DF759B1A;
+struct HandVelocityTracker_tD87D6869AFF8258293FD4651A564D0C24CB4AE5B;
+struct HeadPhysicsFollower_tBD91DD4FBC4ACDBCC3115AAE61D48223B8C3A373;
+struct ISubsystemDescriptor_tEF29944D579CC7D70F52CB883150735991D54E6E;
+struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+struct LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
+struct String_t;
+struct TeleportPoint_tCB3E16940C6877B40E54D1AD9356E47B6951771E;
+struct Teleporter_tC1177D1FA857B1357E1D55F46FE9E106EB3397CB;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977;
+struct UnityHandEvent_tCE62CBEF8ADC67AB410E60AEED5D7794A83BA56F;
+struct UnityHandGrabEvent_t55420170794164731BF3E9B1AC943DB9FF2CDAAA;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC24E8CFF0073DD34A38C49DD01C0B80FF0D880E6;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct XRAutoHandAxisFingerBender_t54C0D70AF33F2CA3A067881CF8D643AAC17B9753;
+struct XRAutoHandFingerBender_tFA95106E9CF293D2AB5019C3C43F372C1B567A74;
+struct XRControllerEvent_tDE19241ABE04E5A463C7B858C0E9C15882206164;
+struct XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D;
+struct XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D;
+struct XRHandPlayerControllerLink_t8056403B5DAF408743EF34B7ECCF45EA4EABB048;
+struct XRHandPointGrabLink_t9E97F842DC3DE66846406D508F99C1594509DCC4;
+struct XRHeadTracking_tB1A4055C91F911CF9F8D45717B7B069FFAEE26A0;
+struct XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34;
+struct XRMover_t600DCF258BBE9D5669D7DD3047801991F7E5561F;
+struct XRTeleporterLink_tE3DAA98277F866D1B7F883EEFE6AB717D7EE9059;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t90832B88D7207769654164CC28440CF594CC397D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC____deviceNames_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tE4B7ECE3F924825081DCED859A5C828206D96B30____036A3C8A3D38231D42B6067A77A30963FE65F21A6B93D2724CB89E9BF122C17E_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tE4B7ECE3F924825081DCED859A5C828206D96B30____43C46CF015E1BB597A7D5EEF28745237529E3692990EC616F6AB12A01D2B88CF_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral0E790D173D0941EFEB28075238C80144C75ED2B5;
+IL2CPP_EXTERN_C String_t* _stringLiteral1AC0937B9C80F47B1CBB8BF99197FF7601CCC219;
+IL2CPP_EXTERN_C String_t* _stringLiteral1C3B83E7128DFE5344885801249731AA7F849057;
+IL2CPP_EXTERN_C String_t* _stringLiteral1D5936637A300BE43209AC11F74C9A26EA306698;
+IL2CPP_EXTERN_C String_t* _stringLiteral373488836594D56EA532FB8BB7D5AD854C88D4C3;
+IL2CPP_EXTERN_C String_t* _stringLiteral410170300E3FF06884D72D6183CF8901ACAC6F7E;
+IL2CPP_EXTERN_C String_t* _stringLiteral58E82DB60E5791C030867CA548F9C1FEBFDAF046;
+IL2CPP_EXTERN_C String_t* _stringLiteral5DF4B9871B0752E52751C58BE90B1F7DFD08F302;
+IL2CPP_EXTERN_C String_t* _stringLiteral6092D256F3A5AF4EE810336D1DB031D38C58635A;
+IL2CPP_EXTERN_C String_t* _stringLiteralA73F4360C56103ED788368C9769D9E67B8857E15;
+IL2CPP_EXTERN_C String_t* _stringLiteralB09640463D22396686FADC42FC875FB2637B5954;
+IL2CPP_EXTERN_C String_t* _stringLiteralC365DCA63888D68B04B9B7EE0C9FBE215B1F9687;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisHandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328_m7778E5496EA1A7FA95F54084B250CBE56F077E3E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_m6F2A389D2E080E51F750EBEEF8ED193C88EC9BD0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_mD748E56A02C37DEA9FD59EB365DD196F04B5E147_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m7B899035F29D732606CA6BA2253BEBD41BECD3DC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m5267F7AD322ED3F12B552EC1C62F059932803E2E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m7D19F033982951230B318A08E829850451459AAE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m099EE1B978423A69DAE032836B6FC9A39F7D1EE6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mC249FC827BC3BE999A938F8B5BD884F8AA0CB7FA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mF8DDB0BDC273D655115D5E62307ADF657EC28DE5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m69C3B0FCDB85116A8F7AB368DC33EBCC27556F0E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Resources_Load_TisAutoHandSettings_t08BF418CB603F6B2E1B383815433637547B395A2_m4EF6124DD58FBDC4044C106F20704764C08D2870_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SubsystemManager_GetSubsystems_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m9B556FE7439236CF6F5643A62BC660E4E6DE1CDE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* XRHandOffset_DeviceConnected_m07CA6711EEC5DDEFD66687620550167F4664F3E3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_0_0_0_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6;
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462;
+struct FingerU5BU5D_t815754A92A73203E15FBC68B1FD4A793D2BD90F7;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tD811C77B65000DCFA4AA42BFDCD5293B380811DD 
+{
+};
+struct List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE  : public RuntimeObject
+{
+	InputDeviceU5BU5D_t1361FC6DDFE12D211F933B024E51B7E5CF073F63* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t90832B88D7207769654164CC28440CF594CC397D  : public RuntimeObject
+{
+	XRInputSubsystemU5BU5D_t224A541B4C0D2E3253E4D68ADF4F824AC587B11C* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_tE4B7ECE3F924825081DCED859A5C828206D96B30  : public RuntimeObject
+{
+};
+struct CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8  : public RuntimeObject
+{
+	InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382* ___m_Calls;
+	PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25* ___m_PersistentCalls;
+	bool ___m_CallsDirty;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC24E8CFF0073DD34A38C49DD01C0B80FF0D880E6  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 
+{
+	String_t* ___U3CnameU3Ek__BackingField;
+};
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke
+{
+	char* ___U3CnameU3Ek__BackingField;
+};
+#endif
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com
+{
+	Il2CppChar* ___U3CnameU3Ek__BackingField;
+};
+#endif
+struct InputFeatureUsage_1_tD3FEDCAE0D7F51C7B42182162ACE726E68166B38 
+{
+	String_t* ___U3CnameU3Ek__BackingField;
+};
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke
+{
+	char* ___U3CnameU3Ek__BackingField;
+};
+#endif
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com
+{
+	Il2CppChar* ___U3CnameU3Ek__BackingField;
+};
+#endif
+struct InputFeatureUsage_1_t64C1AA42D6E8BD57C54C7E891BD79A70A0F3A170 
+{
+	String_t* ___U3CnameU3Ek__BackingField;
+};
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke
+{
+	char* ___U3CnameU3Ek__BackingField;
+};
+#endif
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com
+{
+	Il2CppChar* ___U3CnameU3Ek__BackingField;
+};
+#endif
+struct InputFeatureUsage_1_t4EF7DDCAC35EE23BA72694AC2AB76CF4A879FFD9 
+{
+	String_t* ___U3CnameU3Ek__BackingField;
+};
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke
+{
+	char* ___U3CnameU3Ek__BackingField;
+};
+#endif
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com
+{
+	Il2CppChar* ___U3CnameU3Ek__BackingField;
+};
+#endif
+struct InputFeatureUsage_1_t8489CEC68B1EC178F2634079A9D7CD9E90D3CF5D 
+{
+	String_t* ___U3CnameU3Ek__BackingField;
+};
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke
+{
+	char* ___U3CnameU3Ek__BackingField;
+};
+#endif
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com
+{
+	Il2CppChar* ___U3CnameU3Ek__BackingField;
+};
+#endif
+struct InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 
+{
+	String_t* ___U3CnameU3Ek__BackingField;
+};
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke
+{
+	char* ___U3CnameU3Ek__BackingField;
+};
+#endif
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com
+{
+	Il2CppChar* ___U3CnameU3Ek__BackingField;
+};
+#endif
+struct InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C 
+{
+	String_t* ___U3CnameU3Ek__BackingField;
+};
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke
+{
+	char* ___U3CnameU3Ek__BackingField;
+};
+#endif
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com
+{
+	Il2CppChar* ___U3CnameU3Ek__BackingField;
+};
+#endif
+struct InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 
+{
+	String_t* ___U3CnameU3Ek__BackingField;
+};
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_pinvoke
+{
+	char* ___U3CnameU3Ek__BackingField;
+};
+#endif
+#ifndef InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+#define InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com_define
+struct InputFeatureUsage_1_t66EDAF8AFFA2E9DDC0248C48B76ADAB8E2728858_marshaled_com
+{
+	Il2CppChar* ___U3CnameU3Ek__BackingField;
+};
+#endif
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct CatchAssistData_tE1379197DD7FBB937273BA2392268F56DE40E39D 
+{
+	Grabbable_t469D3F66286C987192B8580F498943CB24434C83* ___grab;
+	float ___estimatedRadius;
+};
+struct CatchAssistData_tE1379197DD7FBB937273BA2392268F56DE40E39D_marshaled_pinvoke
+{
+	Grabbable_t469D3F66286C987192B8580F498943CB24434C83* ___grab;
+	float ___estimatedRadius;
+};
+struct CatchAssistData_tE1379197DD7FBB937273BA2392268F56DE40E39D_marshaled_com
+{
+	Grabbable_t469D3F66286C987192B8580F498943CB24434C83* ___grab;
+	float ___estimatedRadius;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct FingerPoseData_t671FC39FA94BA420C985B8368AF5C15CEAF46171 
+{
+	Matrix4x4U5BU5D_t9C51C93425FABC022B506D2DB3A5FA70F9752C4D* ___poseRelativeMatrix;
+	QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* ___localRotations;
+};
+struct FingerPoseData_t671FC39FA94BA420C985B8368AF5C15CEAF46171_marshaled_pinvoke
+{
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___poseRelativeMatrix;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___localRotations;
+};
+struct FingerPoseData_t671FC39FA94BA420C985B8368AF5C15CEAF46171_marshaled_com
+{
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___poseRelativeMatrix;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___localRotations;
+};
+struct HapticCapabilities_t4F7DFEDA7457938D39B877F6A86901F7A6788211 
+{
+	uint32_t ___m_NumChannels;
+	bool ___m_SupportsImpulse;
+	bool ___m_SupportsBuffer;
+	uint32_t ___m_BufferFrequencyHz;
+	uint32_t ___m_BufferMaxSize;
+	uint32_t ___m_BufferOptimalSize;
+};
+struct HapticCapabilities_t4F7DFEDA7457938D39B877F6A86901F7A6788211_marshaled_pinvoke
+{
+	uint32_t ___m_NumChannels;
+	int32_t ___m_SupportsImpulse;
+	int32_t ___m_SupportsBuffer;
+	uint32_t ___m_BufferFrequencyHz;
+	uint32_t ___m_BufferMaxSize;
+	uint32_t ___m_BufferOptimalSize;
+};
+struct HapticCapabilities_t4F7DFEDA7457938D39B877F6A86901F7A6788211_marshaled_com
+{
+	uint32_t ___m_NumChannels;
+	int32_t ___m_SupportsImpulse;
+	int32_t ___m_SupportsBuffer;
+	uint32_t ___m_BufferFrequencyHz;
+	uint32_t ___m_BufferMaxSize;
+	uint32_t ___m_BufferOptimalSize;
+};
+struct InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD 
+{
+	uint64_t ___m_DeviceId;
+	bool ___m_Initialized;
+};
+struct InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD_marshaled_pinvoke
+{
+	uint64_t ___m_DeviceId;
+	int32_t ___m_Initialized;
+};
+struct InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD_marshaled_com
+{
+	uint64_t ___m_DeviceId;
+	int32_t ___m_Initialized;
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB 
+{
+	int32_t ___m_Mask;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
+{
+	uint32_t ___m_value;
+};
+struct UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D367_tC43CBB6175AC256E77CD810263FD4C0AF8DA6F56 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D367_tC43CBB6175AC256E77CD810263FD4C0AF8DA6F56__padding[367];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D729_t43E77B6DB679F1DF90D99DFA05321AC56CDF4CA4 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D729_t43E77B6DB679F1DF90D99DFA05321AC56CDF4CA4__padding[729];
+	};
+};
+#pragma pack(pop, tp)
+struct MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01 
+{
+	List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ____current;
+};
+struct CollisionFlags_t3132E5D974C485D3F3C97B7AF475965AB0C3F9C1 
+{
+	int32_t ___value__;
+};
+struct Common2DAxis_tF70B13DED70747C178A8DF455AC5EFD7ECDD8E65 
+{
+	int32_t ___value__;
+};
+struct CommonAxis_t8D4739F834156C476220A415FB78D5A211BCA130 
+{
+	int32_t ___value__;
+};
+struct CommonButton_tFDF09D12A8420F8BFCA715BE0DBE1B4D72C4DDA6 
+{
+	int32_t ___value__;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC 
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___deviceNames;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rotation;
+};
+struct DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_marshaled_pinvoke
+{
+	char** ___deviceNames;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rotation;
+};
+struct DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_marshaled_com
+{
+	Il2CppChar** ___deviceNames;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rotation;
+};
+struct FingerEnum_t42DA32A3DC78B18F420E3E0DE419DD17D7EB61BF 
+{
+	int32_t ___value__;
+};
+struct GrabType_tBBFA4F6B8DBA22B07CCA724C09B99FC65D6B0582 
+{
+	int32_t ___value__;
+};
+struct InputDeviceCharacteristics_t7BD1A06C6AE9FBD26F4FC105269861694217BD82 
+{
+	uint32_t ___value__;
+};
+struct IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3  : public RuntimeObject
+{
+	intptr_t ___m_Ptr;
+	RuntimeObject* ___m_SubsystemDescriptor;
+};
+struct IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+	RuntimeObject* ___m_SubsystemDescriptor;
+};
+struct IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_marshaled_com
+{
+	intptr_t ___m_Ptr;
+	RuntimeObject* ___m_SubsystemDescriptor;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct QueryTriggerInteraction_t5AA443202C8B671F391534A002B7CF48A1412D23 
+{
+	int32_t ___value__;
+};
+struct RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Point;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal;
+	uint32_t ___m_FaceID;
+	float ___m_Distance;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_UV;
+	int32_t ___m_Collider;
+};
+struct RotationType_t128F52CF90AE8F0B9B4B17D043DB75E1E0338B63 
+{
+	int32_t ___value__;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct TrackingOriginModeFlags_t04723708FB00785CE6A9CDECBB4501ADAB612C4F 
+{
+	int32_t ___value__;
+};
+struct XRNode_t41F4B2F0EDD99DB33C49EC731C8C7F9DF142B5FF 
+{
+	int32_t ___value__;
+};
+struct IntegratedSubsystem_1_tF93BC76362E85BDD215312162457BE510FC76D3B  : public IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3
+{
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC  : public MulticastDelegate_t
+{
+};
+struct AutoHandSettings_t08BF418CB603F6B2E1B383815433637547B395A2  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	bool ___ignoreSetup;
+	bool ___usingDynamicTimestep;
+	bool ___useAutomaticControllerOffset;
+	float ___quality;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34  : public IntegratedSubsystem_1_tF93BC76362E85BDD215312162457BE510FC76D3B
+{
+	Action_1_tC867D66471C553CFFF8707FF2C59FB7AAB03086A* ___trackingOriginUpdated;
+	Action_1_tC867D66471C553CFFF8707FF2C59FB7AAB03086A* ___boundaryChanged;
+	List_1_tB88E7361EE76DFB3EBB7FCD60CC59ACC3E48C284* ___m_DeviceIdsCache;
+};
+struct CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A  : public Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct AutoHandPlayer_t659A159B183D187AB5BE6D459CD27FFD8B8459EE  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___ignoreMe;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___headCamera;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___forwardFollow;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___trackingContainer;
+	Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* ___handRight;
+	Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* ___handLeft;
+	bool ___useMovement;
+	float ___maxMoveSpeed;
+	float ___moveAcceleration;
+	int32_t ___rotationType;
+	float ___snapTurnAngle;
+	float ___smoothTurnSpeed;
+	bool ___bodyFollowsHead;
+	float ___maxHeadDistance;
+	bool ___useSmoothStep;
+	float ___stepSmoothSpeed;
+	bool ___showHeight;
+	float ___heightSmoothSpeed;
+	float ___heightOffset;
+	bool ___crouching;
+	float ___crouchHeight;
+	bool ___autoAdjustColliderHeight;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___minMaxHeight;
+	bool ___useHeadCollision;
+	float ___headRadius;
+	bool ___useGrounding;
+	float ___maxStepHeight;
+	float ___groundingPenetrationOffset;
+	float ___maxStepAngle;
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___groundLayerMask;
+	float ___groundedDrag;
+	float ___flyingDrag;
+	bool ___allowClimbing;
+	bool ___allowClimbingMovement;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___climbingStrength;
+	float ___climbingAcceleration;
+	float ___climbingDrag;
+	float ___climbUpStepHeightMultiplier;
+	bool ___allowBodyPushing;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pushingStrength;
+	float ___pushingAcceleration;
+	float ___pushingDrag;
+	float ___pushUpStepHeightMultiplier;
+	bool ___allowPlatforms;
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___platformingLayerMask;
+	AutoHandPlayerEvent_tA9E2DDAD5B1BFA5952DB14AF16FC5D35762BCED6* ___OnSnapTurn;
+	AutoHandPlayerEvent_tA9E2DDAD5B1BFA5952DB14AF16FC5D35762BCED6* ___OnSmoothTurn;
+	AutoHandPlayerEvent_tA9E2DDAD5B1BFA5952DB14AF16FC5D35762BCED6* ___OnTeleported;
+	float ___movementDeadzone;
+	float ___turnDeadzone;
+	float ___turnResetzone;
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___U3CbodyU3Ek__BackingField;
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___U3ClastGroundHitU3Ek__BackingField;
+	HeadPhysicsFollower_tBD91DD4FBC4ACDBCC3115AAE61D48223B8C3A373* ___headPhysicsFollower;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___moveDirection;
+	float ___turningAxis;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___climbAxis;
+	Dictionary_2_tED5C369AA6EA30FAC9ECACAD9BC388C2778EF047* ___climbing;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___pushAxis;
+	Dictionary_2_t58245AB7A4EB67A944A3DF601E1F70BDDEA78F24* ___pushRight;
+	Dictionary_2_t4A6F5802077C994F4A1D9FE1D60D1A14AFFA04B1* ___pushRightCount;
+	Dictionary_2_t58245AB7A4EB67A944A3DF601E1F70BDDEA78F24* ___pushLeft;
+	Dictionary_2_t4A6F5802077C994F4A1D9FE1D60D1A14AFFA04B1* ___pushLeftCount;
+	CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* ___bodyCapsule;
+	Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* ___lastRightHand;
+	Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* ___lastLeftHand;
+	ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* ___colliderNonAlloc;
+	bool ___trackingStarted;
+	bool ___isGrounded;
+	bool ___axisReset;
+	bool ___tempDisableGrounding;
+	bool ___lastCrouching;
+	float ___lastCrouchingHeight;
+	float ___playerHeight;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___lastUpdatePosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___lastHeadPos;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___targetTrackedPos;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___targetPosOffset;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___lastPlatformPosition;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___lastPlatformRotation;
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___U3ClastPlatformingHitU3Ek__BackingField;
+	float ___headHeightOffset;
+	float ___highestPoint;
+	int32_t ___U3ChandPlayerMaskU3Ek__BackingField;
+	RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* ___hitsNonAlloc;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___disableGroundingRoutine;
+};
+struct Finger_t0C777A49177510A549060E71A03A3DD5668116A5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* ___hand;
+	int32_t ___fingerType;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___knuckleJoint;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___middleJoint;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___distalJoint;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___tip;
+	float ___tipRadius;
+	float ___bendOffset;
+	float ___fingerSmoothSpeed;
+	float ___secondaryOffset;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___fingerJoints;
+	FingerPoseDataU5BU5D_t049A1097ED0D527FBA6E87E2F83B21FE2DA08378* ___poseData;
+	FingerPoseData_t671FC39FA94BA420C985B8368AF5C15CEAF46171 ____poseDataNonAlloc;
+	float ___bend;
+	QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* ___minGripRotPose;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___minGripPosPose;
+	QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* ___maxGripRotPose;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___maxGripPosPose;
+	float ___lastHitBend;
+	ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* ___results;
+};
+struct HandBase_t72CE151A5F26B55B4DE49D45CCB1858ED65136AE  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___ignoreMe;
+	FingerU5BU5D_t815754A92A73203E15FBC68B1FD4A793D2BD90F7* ___fingers;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___palmTransform;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___pinchPointTransform;
+	bool ___left;
+	float ___reachDistance;
+	bool ___enableMovement;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___follow;
+	float ___throwPower;
+	float ___gentleGrabSpeed;
+	bool ___advancedFollowSettings;
+	bool ___enableIK;
+	float ___swayStrength;
+	float ___gripOffset;
+	float ___throwVelocityExpireTime;
+	float ___throwAngularVelocityExpireTime;
+	int32_t ___fingerBendSteps;
+	bool ___usingPoseAreas;
+	int32_t ___queryTriggerInteraction;
+	HandFollow_t68A804BA9A03A3E1E04D124A9B2C20C01145D8E5* ____handFollow;
+	HandAnimator_tA5C3BEB77958F4AA77D2030390FED42285EA49B0* ____handAnimator;
+	HandGrabbableHighlighter_t58E982E51599A821D84985859EAEB516DF759B1A* ____highlighter;
+	CollisionTracker_t02EFF05824EEA207835BBE9DB8654AE863280DC6* ____collisionTracker;
+	HandVelocityTracker_tD87D6869AFF8258293FD4651A564D0C24CB4AE5B* ___U3CvelocityTrackerU3Ek__BackingField;
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ____body;
+	Grabbable_t469D3F66286C987192B8580F498943CB24434C83* ___HoldingObj;
+	GrabbablePose_tB602F39B2D26BC0665850FD146CE84D4FABB2153* ____currentHeldPose;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____handGrabPoint;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ____localGrabbablePoint;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ____grabPositionOffset;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ____grabRotationOffset;
+	ConfigurableJoint_t8B33AB5A6B8D52493F14C4B8DBDF78A1C94ECB77* ___heldJoint;
+	bool ___U3CgrabbingU3Ek__BackingField;
+	bool ___U3CsqueezingU3Ek__BackingField;
+	float ___gripAxis;
+	float ___squeezeAxis;
+	List_1_t58F89DEDCD7DABB0CFB009AAD9C0CFE061592252* ___handColliders;
+	float ___lastGrabTime;
+	float ___lastReleaseTime;
+	BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* ____handEncapsulationCollider;
+	int32_t ___handLayers;
+	int32_t ___handIgnoreCollisionLayers;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___palmChild;
+	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___palmCollider;
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___grabbingHit;
+	int32_t ___noCollisionFrames;
+	int32_t ___collisionFrames;
+	bool ___prerendered;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___preRenderPos;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___preRenderRot;
+};
+struct HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* ___hand;
+};
+struct HandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* ___primaryHand;
+	Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* ___secondaryHand;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___forwardPointer;
+	bool ___useSmoothing;
+	float ___forwardSmoothingSpeed;
+	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ___line;
+	float ___maxRange;
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___layers;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___defaultTargetedMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___defaultSelectedMaterial;
+	bool ___useInstantPull;
+	bool ___useFlickPull;
+	float ___flickThreshold;
+	float ___pullGrabDistance;
+	bool ___instantGrabAssist;
+	float ___catchAssistRadius;
+	bool ___showEvents;
+	UnityHandGrabEvent_t55420170794164731BF3E9B1AC943DB9FF2CDAAA* ___OnPull;
+	UnityHandEvent_tCE62CBEF8ADC67AB410E60AEED5D7794A83BA56F* ___StartPoint;
+	UnityHandEvent_tCE62CBEF8ADC67AB410E60AEED5D7794A83BA56F* ___StopPoint;
+	UnityHandGrabEvent_t55420170794164731BF3E9B1AC943DB9FF2CDAAA* ___StartTarget;
+	UnityHandGrabEvent_t55420170794164731BF3E9B1AC943DB9FF2CDAAA* ___StopTarget;
+	UnityHandGrabEvent_t55420170794164731BF3E9B1AC943DB9FF2CDAAA* ___StartSelect;
+	UnityHandGrabEvent_t55420170794164731BF3E9B1AC943DB9FF2CDAAA* ___StopSelect;
+	List_1_t578B9E4506B78BEF1B473ECC0357778E8561AE44* ___catchAssisted;
+	DistanceGrabbable_tD55433AB3FE659E15DD86915E0039A0FC1987AD9* ___targetingDistanceGrabbable;
+	DistanceGrabbable_tD55433AB3FE659E15DD86915E0039A0FC1987AD9* ___selectingDistanceGrabbable;
+	float ___catchAssistSeconds;
+	bool ___pointing;
+	bool ___pulling;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___startPullPosition;
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___hit;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___lastRotation;
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___selectionHit;
+	float ___selectedEstimatedRadius;
+	float ___startLookAssist;
+	bool ___lastInstantPull;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____hitPoint;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___catchAssistRoutine;
+	DistanceGrabbable_tD55433AB3FE659E15DD86915E0039A0FC1987AD9* ___catchAsistGrabbable;
+	CatchAssistData_tE1379197DD7FBB937273BA2392268F56DE40E39D ___catchAssistData;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___currentSmoothForward;
+};
+struct Teleporter_tC1177D1FA857B1357E1D55F46FE9E106EB3397CB  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___teleportObject;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___additionalTeleports;
+	bool ___onlyUseTeleportPoints;
+	bool ___preventCapsuleOverlap;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___aimer;
+	float ___aimerSmoothingSpeed;
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___layer;
+	float ___maxSurfaceAngle;
+	float ___distanceMultiplyer;
+	float ___curveStrength;
+	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ___line;
+	int32_t ___lineSegments;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___canTeleportColor;
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___cantTeleportColor;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___indicator;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnStartTeleport;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnStopTeleport;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnTeleport;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___lineArr;
+	bool ___aiming;
+	bool ___hitting;
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___aimHit;
+	AutoHandPlayer_t659A159B183D187AB5BE6D459CD27FFD8B8459EE* ___playerBody;
+	RaycastHitU5BU5D_t008B8309DE422FE7567068D743D68054D5EBF1A8* ___hitNonAlloc;
+	TeleportPoint_tCB3E16940C6877B40E54D1AD9356E47B6951771E* ___currentTeleportPoint;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___currentTeleportSmoothForward;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___currentTeleportForward;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___currentTeleportPosition;
+	TeleportPointU5BU5D_tE86E1C41BF2FC6345848A455C4CC8F1AC719DDA3* ___teleportPoints;
+};
+struct XRAutoHandAxisFingerBender_t54C0D70AF33F2CA3A067881CF8D643AAC17B9753  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* ___controller;
+	int32_t ___axis;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___bendOffsets;
+	float ___lastAxis;
+};
+struct XRAutoHandFingerBender_tFA95106E9CF293D2AB5019C3C43F372C1B567A74  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* ___controller;
+	int32_t ___button;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___bendOffsets;
+	bool ___pressed;
+};
+struct XRControllerEvent_tDE19241ABE04E5A463C7B858C0E9C15882206164  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* ___link;
+	int32_t ___button;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___Pressed;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___Released;
+	bool ___pressed;
+};
+struct XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___defaultDevice;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___rightOffsets;
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___leftOffsets;
+	DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* ___devices;
+	bool ___offsetDone;
+	bool ___hasProvider;
+	AutoHandSettings_t08BF418CB603F6B2E1B383815433637547B395A2* ___settings;
+};
+struct XRHandPlayerControllerLink_t8056403B5DAF408743EF34B7ECCF45EA4EABB048  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* ___moveController;
+	XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* ___turnController;
+	AutoHandPlayer_t659A159B183D187AB5BE6D459CD27FFD8B8459EE* ___player;
+	int32_t ___moveAxis;
+	int32_t ___turnAxis;
+};
+struct XRHandPointGrabLink_t9E97F842DC3DE66846406D508F99C1594509DCC4  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	HandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328* ___pointGrab;
+	XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* ___link;
+	int32_t ___pointInput;
+	int32_t ___selectInput;
+	bool ___pointing;
+	bool ___selecting;
+};
+struct XRHeadTracking_tB1A4055C91F911CF9F8D45717B7B069FFAEE26A0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___mode;
+};
+struct XRMover_t600DCF258BBE9D5669D7DD3047801991F7E5561F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* ___moverController;
+	XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* ___turningController;
+	int32_t ___moverAxis;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cam;
+	CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* ___controller;
+	CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* ___collisionCapsule;
+	bool ___snapTurning;
+	float ___turnAngle;
+	float ___speed;
+	float ___gravity;
+	float ___currentGravity;
+	bool ___axisReset;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___moveAxis;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___turningAxis;
+};
+struct XRTeleporterLink_tE3DAA98277F866D1B7F883EEFE6AB717D7EE9059  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Teleporter_tC1177D1FA857B1357E1D55F46FE9E106EB3397CB* ___hand;
+	int32_t ___role;
+	int32_t ___button;
+	bool ___teleporting;
+	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ___device;
+	List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* ___devices;
+};
+struct Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F  : public HandBase_t72CE151A5F26B55B4DE49D45CCB1858ED65136AE
+{
+	bool ___usingHighlight;
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___highlightLayers;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___defaultHighlight;
+	bool ___showAdvanced;
+	bool ___noHandFriction;
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___ignoreGrabCheckLayers;
+	int32_t ___grabType;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___grabCurve;
+	float ___minGrabTime;
+	float ___maxGrabTime;
+	float ___velocityGrabHandAmplifier;
+	float ___velocityGrabObjectAmplifier;
+	float ___grabOpenHandPoint;
+	int32_t ___poseIndex;
+	bool ___ignoreMe1;
+	HandGrabEvent_t6E5782FBAC9E7DD5392F00D261553F447AA31673* ___OnTriggerGrab;
+	HandGrabEvent_t6E5782FBAC9E7DD5392F00D261553F447AA31673* ___OnBeforeGrabbed;
+	HandGrabEvent_t6E5782FBAC9E7DD5392F00D261553F447AA31673* ___OnGrabbed;
+	HandGrabEvent_t6E5782FBAC9E7DD5392F00D261553F447AA31673* ___OnTriggerRelease;
+	HandGrabEvent_t6E5782FBAC9E7DD5392F00D261553F447AA31673* ___OnBeforeReleased;
+	HandGrabEvent_t6E5782FBAC9E7DD5392F00D261553F447AA31673* ___OnReleased;
+	HandGrabEvent_t6E5782FBAC9E7DD5392F00D261553F447AA31673* ___OnSqueezed;
+	HandGrabEvent_t6E5782FBAC9E7DD5392F00D261553F447AA31673* ___OnUnsqueezed;
+	HandGrabEvent_t6E5782FBAC9E7DD5392F00D261553F447AA31673* ___OnForcedRelease;
+	HandGrabEvent_t6E5782FBAC9E7DD5392F00D261553F447AA31673* ___OnGrabJointBreak;
+	HandGrabEvent_t6E5782FBAC9E7DD5392F00D261553F447AA31673* ___OnHeldConnectionBreak;
+	HandGameObjectEvent_t887907DC43A5CF7FD4252AEE830A313D7566EAE0* ___OnHandCollisionStart;
+	HandGameObjectEvent_t887907DC43A5CF7FD4252AEE830A313D7566EAE0* ___OnHandCollisionStop;
+	HandGameObjectEvent_t887907DC43A5CF7FD4252AEE830A313D7566EAE0* ___OnHandTriggerStart;
+	HandGameObjectEvent_t887907DC43A5CF7FD4252AEE830A313D7566EAE0* ___OnHandTriggerStop;
+	Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* ___copyFromHand;
+	Grabbable_t469D3F66286C987192B8580F498943CB24434C83* ___U3ClastHoldingObjU3Ek__BackingField;
+	List_1_tF8E8A37A283D93BFE1298317FE8F489C0F9A1521* ___triggerEventAreas;
+	float ___startGrabDist;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___startHandLocalGrabPosition;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ____grabRoutine;
+};
+struct XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D  : public HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59
+{
+	int32_t ___grabButton;
+	int32_t ___grabAxis;
+	int32_t ___squeezeAxis;
+	int32_t ___squeezeButton;
+	bool ___squeezing;
+	bool ___grabbing;
+	int32_t ___role;
+	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ___device;
+	List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* ___devices;
+};
+struct List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_StaticFields
+{
+	InputDeviceU5BU5D_t1361FC6DDFE12D211F933B024E51B7E5CF073F63* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t90832B88D7207769654164CC28440CF594CC397D_StaticFields
+{
+	XRInputSubsystemU5BU5D_t224A541B4C0D2E3253E4D68ADF4F824AC587B11C* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_tE4B7ECE3F924825081DCED859A5C828206D96B30_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D729_t43E77B6DB679F1DF90D99DFA05321AC56CDF4CA4 ___036A3C8A3D38231D42B6067A77A30963FE65F21A6B93D2724CB89E9BF122C17E;
+	__StaticArrayInitTypeSizeU3D367_tC43CBB6175AC256E77CD810263FD4C0AF8DA6F56 ___43C46CF015E1BB597A7D5EEF28745237529E3692990EC616F6AB12A01D2B88CF;
+};
+struct CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields
+{
+	InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___isTracked;
+	InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___primaryButton;
+	InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___primaryTouch;
+	InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___secondaryButton;
+	InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___secondaryTouch;
+	InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___gripButton;
+	InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___triggerButton;
+	InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___menuButton;
+	InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___primary2DAxisClick;
+	InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___primary2DAxisTouch;
+	InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___secondary2DAxisClick;
+	InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___secondary2DAxisTouch;
+	InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___userPresence;
+	InputFeatureUsage_1_t4EF7DDCAC35EE23BA72694AC2AB76CF4A879FFD9 ___trackingState;
+	InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 ___batteryLevel;
+	InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 ___trigger;
+	InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 ___grip;
+	InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C ___primary2DAxis;
+	InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C ___secondary2DAxis;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___devicePosition;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___leftEyePosition;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___rightEyePosition;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___centerEyePosition;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___colorCameraPosition;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___deviceVelocity;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___deviceAngularVelocity;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___leftEyeVelocity;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___leftEyeAngularVelocity;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___rightEyeVelocity;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___rightEyeAngularVelocity;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___centerEyeVelocity;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___centerEyeAngularVelocity;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___colorCameraVelocity;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___colorCameraAngularVelocity;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___deviceAcceleration;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___deviceAngularAcceleration;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___leftEyeAcceleration;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___leftEyeAngularAcceleration;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___rightEyeAcceleration;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___rightEyeAngularAcceleration;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___centerEyeAcceleration;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___centerEyeAngularAcceleration;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___colorCameraAcceleration;
+	InputFeatureUsage_1_t2E901FA41650EB29399194768CAA93D477CEBC58 ___colorCameraAngularAcceleration;
+	InputFeatureUsage_1_t8489CEC68B1EC178F2634079A9D7CD9E90D3CF5D ___deviceRotation;
+	InputFeatureUsage_1_t8489CEC68B1EC178F2634079A9D7CD9E90D3CF5D ___leftEyeRotation;
+	InputFeatureUsage_1_t8489CEC68B1EC178F2634079A9D7CD9E90D3CF5D ___rightEyeRotation;
+	InputFeatureUsage_1_t8489CEC68B1EC178F2634079A9D7CD9E90D3CF5D ___centerEyeRotation;
+	InputFeatureUsage_1_t8489CEC68B1EC178F2634079A9D7CD9E90D3CF5D ___colorCameraRotation;
+	InputFeatureUsage_1_t64C1AA42D6E8BD57C54C7E891BD79A70A0F3A170 ___handData;
+	InputFeatureUsage_1_tD3FEDCAE0D7F51C7B42182162ACE726E68166B38 ___eyesData;
+	InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C ___dPad;
+	InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 ___indexFinger;
+	InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 ___middleFinger;
+	InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 ___ringFinger;
+	InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 ___pinkyFinger;
+	InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___thumbrest;
+	InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 ___indexTouch;
+	InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 ___thumbTouch;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD_StaticFields
+{
+	List_1_t90832B88D7207769654164CC28440CF594CC397D* ___s_InputSubsystemCache;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct AutoHandPlayer_t659A159B183D187AB5BE6D459CD27FFD8B8459EE_StaticFields
+{
+	bool ___notFound;
+	AutoHandPlayer_t659A159B183D187AB5BE6D459CD27FFD8B8459EE* ____Instance;
+};
+struct HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59_StaticFields
+{
+	HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59* ___handLeft;
+	HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59* ___handRight;
+};
+struct Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F_StaticFields
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___grabbableLayers;
+	String_t* ___grabbableLayerNameDefault;
+	String_t* ___grabbingLayerName;
+	String_t* ___rightHandLayerName;
+	String_t* ___leftHandLayerName;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* m_Items[1];
+
+	inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462  : public RuntimeArray
+{
+	ALIGN_FIELD (8) DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC m_Items[1];
+
+	inline DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___deviceNames), (void*)NULL);
+	}
+	inline DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___deviceNames), (void*)NULL);
+	}
+};
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct FingerU5BU5D_t815754A92A73203E15FBC68B1FD4A793D2BD90F7  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Finger_t0C777A49177510A549060E71A03A3DD5668116A5* m_Items[1];
+
+	inline Finger_t0C777A49177510A549060E71A03A3DD5668116A5* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Finger_t0C777A49177510A549060E71A03A3DD5668116A5** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Finger_t0C777A49177510A549060E71A03A3DD5668116A5* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Finger_t0C777A49177510A549060E71A03A3DD5668116A5* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Finger_t0C777A49177510A549060E71A03A3DD5668116A5** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Finger_t0C777A49177510A549060E71A03A3DD5668116A5* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float m_Items[1];
+
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Resources_Load_TisRuntimeObject_mD1AF6299B14F87ED1D1A6199A51480919F7C79D7_gshared (String_t* ___0_path, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m9EFC6656FE579E4D72FFCA991DE5860FA28DD71E_gshared (Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_gshared (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01 List_1_GetEnumerator_m099EE1B978423A69DAE032836B6FC9A39F7D1EE6_gshared (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_m7B899035F29D732606CA6BA2253BEBD41BECD3DC_gshared (Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD Enumerator_get_Current_m7D19F033982951230B318A08E829850451459AAE_gshared_inline (Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m5267F7AD322ED3F12B552EC1C62F059932803E2E_gshared (Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_gshared_inline (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2_gshared (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubsystemManager_GetSubsystems_TisRuntimeObject_mB633541A66EAE1B89E7819DD3468958B65E38FD4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___0_subsystems, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeviceData__ctor_m1F1301AE38194A47BC78C4A21806271E41AE3084 (DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC* __this, String_t* ___0_name, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_pos, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_rot, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeviceData__ctor_m2EFE81AE043851104D42A1683ABBA86EE5F2FE30 (DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_names, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_pos, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_rot, const RuntimeMethod* method) ;
+inline AutoHandSettings_t08BF418CB603F6B2E1B383815433637547B395A2* Resources_Load_TisAutoHandSettings_t08BF418CB603F6B2E1B383815433637547B395A2_m4EF6124DD58FBDC4044C106F20704764C08D2870 (String_t* ___0_path, const RuntimeMethod* method)
+{
+	return ((  AutoHandSettings_t08BF418CB603F6B2E1B383815433637547B395A2* (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_mD1AF6299B14F87ED1D1A6199A51480919F7C79D7_gshared)(___0_path, method);
+}
+inline void Action_1__ctor_m9EFC6656FE579E4D72FFCA991DE5860FA28DD71E (Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m9EFC6656FE579E4D72FFCA991DE5860FA28DD71E_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputDevices_add_deviceConnected_m0329DBAE47CA4A20778F7DCBA470FCF9A672E9C9 (Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC* ___0_value, const RuntimeMethod* method) ;
+inline void List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4 (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE*, const RuntimeMethod*))List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputDevices_GetDevices_mDB6E1E057DC81A1833AEB55B62FA22228D6EFA26 (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* ___0_inputDevices, const RuntimeMethod* method) ;
+inline Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01 List_1_GetEnumerator_m099EE1B978423A69DAE032836B6FC9A39F7D1EE6 (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01 (*) (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE*, const RuntimeMethod*))List_1_GetEnumerator_m099EE1B978423A69DAE032836B6FC9A39F7D1EE6_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m7B899035F29D732606CA6BA2253BEBD41BECD3DC (Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01*, const RuntimeMethod*))Enumerator_Dispose_m7B899035F29D732606CA6BA2253BEBD41BECD3DC_gshared)(__this, method);
+}
+inline InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD Enumerator_get_Current_m7D19F033982951230B318A08E829850451459AAE_inline (Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01* __this, const RuntimeMethod* method)
+{
+	return ((  InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD (*) (Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01*, const RuntimeMethod*))Enumerator_get_Current_m7D19F033982951230B318A08E829850451459AAE_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandOffset_DeviceConnected_m07CA6711EEC5DDEFD66687620550167F4664F3E3 (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ___0_inputDevice, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_m5267F7AD322ED3F12B552EC1C62F059932803E2E (Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01*, const RuntimeMethod*))Enumerator_MoveNext_m5267F7AD322ED3F12B552EC1C62F059932803E2E_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputDevices_remove_deviceConnected_m52D0C5E73A9BBEEF775E21DF93DDF0DD4F7D1BB5 (Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandOffset_GetDefaultPositionOffset_m963B0F6FDADBE37C74AA4C0D5814B9733436C1FD (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandOffset_GetDefaultRotationOffset_mEA42A21572F7C4E6D205FC2184943BB08AF6669B (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_localEulerAngles_m358AA9AE8FA24FD1BB7842D231C8644D1C2910C6 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t InputDevice_get_characteristics_mEEDC9AB2254C155C47B48848FECF347A87925ADB (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputDevice_get_name_mAEA08A3755E715697022C54227556428CEF4E1CE (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m06155ED25645EBBC06B4C8F05235EF41B1489C7E (RuntimeObject* ___0_message, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_context, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3 (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandOffset_GetPositionOffset_m0EFA276825D5DE10505573E074FCD871D6CD36FA (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, String_t* ___0_from, String_t* ___1_to, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandOffset_GetRotationOffset_m8D9CE37B4CE0F7C2B204CC9A3CB6ED8C753D7EBD (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, String_t* ___0_from, String_t* ___1_to, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandOffset_OnDisable_mAA35FA80E82B381CFD292FFDE92AAC152B01B8D9 (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 XRHandControllerLink_GetAxis2D_mD86260403C989761DFEDE33F5945DF497D623943 (XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* __this, int32_t ___0_axis, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMover_Move_mE31651F5252535F96A4222D074EE2BD09D686E08 (XRMover_t600DCF258BBE9D5669D7DD3047801991F7E5561F* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMover_Turning_mB4CD4110CE97038A91A40B120DAEA85EAE2F1406 (XRMover_t600DCF258BBE9D5669D7DD3047801991F7E5561F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayerMask_NameToLayer_m2764C530EDA9EC3226A36E3FD43E020B413AF139 (String_t* ___0_layerName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_set_layer_m6E1AF478A2CC86BD222B96317BEB78B7D89B18D0 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+inline CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_point, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Physics_get_gravity_m94393492AE4ED8B38A22ECCDCD2DDDB71BFA010D (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharacterController_get_isGrounded_m548072EC190878925C0F97595B6C307714EFDD67 (CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4 (CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_motion, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandControllerLink_GetAxis_m978F26B462A2A29BB6ECA614984D221DCF94F353 (XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* __this, int32_t ___0_axis, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+inline XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* Component_GetComponent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_mD748E56A02C37DEA9FD59EB365DD196F04B5E147 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandControllerLink_ButtonPressed_m4ACF17435EF43EC7818D0455C923CCC3936B5787 (XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* __this, int32_t ___0_button, const RuntimeMethod* method) ;
+inline XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* Component_GetComponentInParent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_m6F2A389D2E080E51F750EBEEF8ED193C88EC9BD0 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E (RuntimeObject* ___0_message, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_context, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputDevices_GetDevicesAtXRNode_m3371E3BD10324AE9CA741119693542E624CB5F46 (int32_t ___0_node, List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* ___1_inputDevices, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_inline (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE*, const RuntimeMethod*))List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_gshared_inline)(__this, method);
+}
+inline InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2 (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD (*) (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE*, int32_t, const RuntimeMethod*))List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_get_isValid_mA908CF8195CECA44FF457430AFF9198C3FEC0948 (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Hand_SetGrip_m0DD7ED9C2560BA8CE683BDE4A27ADE8138D2CB6B (Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* __this, float ___0_grip, float ___1_squeeze, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 XRHandControllerLink_GetCommonButton_mE75B4CECD80702AF25E5892F9B9C7BFA81AA06ED (int32_t ___0_button, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_TryGetFeatureValue_m24EC3B6C41AE4098269427232AD5F52E786BF884 (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 ___0_usage, bool* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 XRHandControllerLink_GetCommonAxis_m345929905145554DD0F1EBD72210435E1EC4CF2B (int32_t ___0_axis, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_TryGetFeatureValue_m675D52240379FEF80D6499B5031941812FDFD081 (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 ___0_usage, float* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C XRHandControllerLink_GetCommon2DAxis_m7811A0F4923B267315C3EC99140D34BE73E0160F (int32_t ___0_axis, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_TryGetFeatureValue_mB2C15D1FC747DA9FB5958FA17E77049886FB3BBA (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C ___0_usage, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* XRHandControllerLink_Devices_mB6F1733B9348040E5BAA0F4FC772F152D04909B4_inline (XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_TryGetHapticCapabilities_mC97EE9A231941988E8B6FA8AF0CB310EFE1B77A3 (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, HapticCapabilities_t4F7DFEDA7457938D39B877F6A86901F7A6788211* ___0_capabilities, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HapticCapabilities_get_supportsImpulse_m855193672304BD935913E215B690B14952E0C59C (HapticCapabilities_t4F7DFEDA7457938D39B877F6A86901F7A6788211* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_SendHapticImpulse_m7166A784508F8E0F3AE5BD88863171C7A905BC1B (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* __this, uint32_t ___0_channel, float ___1_amplitude, float ___2_duration, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandControllerLink__ctor_m0838228681DF236A1DADC8E935A6BEEF4C0F8684 (HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59* __this, const RuntimeMethod* method) ;
+inline HandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328* Component_GetComponentInParent_TisHandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328_m7778E5496EA1A7FA95F54084B250CBE56F077E3E (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  HandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared)(__this, method);
+}
+inline void List_1__ctor_mC249FC827BC3BE999A938F8B5BD884F8AA0CB7FA (List_1_t90832B88D7207769654164CC28440CF594CC397D* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t90832B88D7207769654164CC28440CF594CC397D*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void SubsystemManager_GetSubsystems_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m9B556FE7439236CF6F5643A62BC660E4E6DE1CDE (List_1_t90832B88D7207769654164CC28440CF594CC397D* ___0_subsystems, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t90832B88D7207769654164CC28440CF594CC397D*, const RuntimeMethod*))SubsystemManager_GetSubsystems_TisRuntimeObject_mB633541A66EAE1B89E7819DD3468958B65E38FD4_gshared)(___0_subsystems, method);
+}
+inline XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* List_1_get_Item_m69C3B0FCDB85116A8F7AB368DC33EBCC27556F0E (List_1_t90832B88D7207769654164CC28440CF594CC397D* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* (*) (List_1_t90832B88D7207769654164CC28440CF594CC397D*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRInputSubsystem_TrySetTrackingOriginMode_m132C190CEAE4403A381BF1C1C4B5FF349F2A3FA7 (XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* __this, int32_t ___0_origin, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_mF8DDB0BDC273D655115D5E62307ADF657EC28DE5_inline (List_1_t90832B88D7207769654164CC28440CF594CC397D* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t90832B88D7207769654164CC28440CF594CC397D*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Teleporter_Teleport_m961A45F23B3DF5C9CB0E865C18BA655FB4C852EB (Teleporter_tC1177D1FA857B1357E1D55F46FE9E106EB3397CB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Teleporter_StartTeleport_mEB1FA1848E8175B8A020C57F7958B42DF2AB298A (Teleporter_tC1177D1FA857B1357E1D55F46FE9E106EB3397CB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_marshal_pinvoke(const DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC& unmarshaled, DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_marshaled_pinvoke& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC____deviceNames_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___deviceNamesException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC____deviceNames_FieldInfo_var, DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___deviceNamesException, NULL);
+}
+IL2CPP_EXTERN_C void DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_marshal_pinvoke_back(const DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_marshaled_pinvoke& marshaled, DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC____deviceNames_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___deviceNamesException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC____deviceNames_FieldInfo_var, DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___deviceNamesException, NULL);
+}
+IL2CPP_EXTERN_C void DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_marshal_pinvoke_cleanup(DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_marshaled_pinvoke& marshaled)
+{
+}
+IL2CPP_EXTERN_C void DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_marshal_com(const DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC& unmarshaled, DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_marshaled_com& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC____deviceNames_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___deviceNamesException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC____deviceNames_FieldInfo_var, DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___deviceNamesException, NULL);
+}
+IL2CPP_EXTERN_C void DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_marshal_com_back(const DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_marshaled_com& marshaled, DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC____deviceNames_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___deviceNamesException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC____deviceNames_FieldInfo_var, DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___deviceNamesException, NULL);
+}
+IL2CPP_EXTERN_C void DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_marshal_com_cleanup(DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC_marshaled_com& marshaled)
+{
+}
+// Method Definition Index: 85173
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeviceData__ctor_m1F1301AE38194A47BC78C4A21806271E41AE3084 (DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC* __this, String_t* ___0_name, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_pos, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_rot, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:13>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
+		String_t* L_2 = ___0_name;
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_2);
+		__this->___deviceNames = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___deviceNames), (void*)L_1);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:14>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_pos;
+		__this->___position = L_3;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:15>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___2_rot;
+		__this->___rotation = L_4;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:16>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void DeviceData__ctor_m1F1301AE38194A47BC78C4A21806271E41AE3084_AdjustorThunk (RuntimeObject* __this, String_t* ___0_name, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_pos, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_rot, const RuntimeMethod* method)
+{
+	DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC*>(__this + _offset);
+	DeviceData__ctor_m1F1301AE38194A47BC78C4A21806271E41AE3084(_thisAdjusted, ___0_name, ___1_pos, ___2_rot, method);
+}
+// Method Definition Index: 85174
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeviceData__ctor_m2EFE81AE043851104D42A1683ABBA86EE5F2FE30 (DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_names, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_pos, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_rot, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:19>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___0_names;
+		__this->___deviceNames = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___deviceNames), (void*)L_0);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:20>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_pos;
+		__this->___position = L_1;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:21>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___2_rot;
+		__this->___rotation = L_2;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:22>
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void DeviceData__ctor_m2EFE81AE043851104D42A1683ABBA86EE5F2FE30_AdjustorThunk (RuntimeObject* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_names, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_pos, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_rot, const RuntimeMethod* method)
+{
+	DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC*>(__this + _offset);
+	DeviceData__ctor_m2EFE81AE043851104D42A1683ABBA86EE5F2FE30(_thisAdjusted, ___0_names, ___1_pos, ___2_rot, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85175
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandOffset_OnEnable_m39E2DC59684BC583A807EEF3B048D80C99ED45BA (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m7B899035F29D732606CA6BA2253BEBD41BECD3DC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m5267F7AD322ED3F12B552EC1C62F059932803E2E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m7D19F033982951230B318A08E829850451459AAE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m099EE1B978423A69DAE032836B6FC9A39F7D1EE6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Resources_Load_TisAutoHandSettings_t08BF418CB603F6B2E1B383815433637547B395A2_m4EF6124DD58FBDC4044C106F20704764C08D2870_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandOffset_DeviceConnected_m07CA6711EEC5DDEFD66687620550167F4664F3E3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1AC0937B9C80F47B1CBB8BF99197FF7601CCC219);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:46>
+		AutoHandSettings_t08BF418CB603F6B2E1B383815433637547B395A2* L_0;
+		L_0 = Resources_Load_TisAutoHandSettings_t08BF418CB603F6B2E1B383815433637547B395A2_m4EF6124DD58FBDC4044C106F20704764C08D2870(_stringLiteral1AC0937B9C80F47B1CBB8BF99197FF7601CCC219, Resources_Load_TisAutoHandSettings_t08BF418CB603F6B2E1B383815433637547B395A2_m4EF6124DD58FBDC4044C106F20704764C08D2870_RuntimeMethod_var);
+		__this->___settings = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___settings), (void*)L_0);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:47>
+		AutoHandSettings_t08BF418CB603F6B2E1B383815433637547B395A2* L_1 = __this->___settings;
+		NullCheck(L_1);
+		bool L_2 = L_1->___useAutomaticControllerOffset;
+		if (L_2)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:48>
+		return;
+	}
+
+IL_001e:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:50>
+		Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC* L_3 = (Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC*)il2cpp_codegen_object_new(Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC_il2cpp_TypeInfo_var);
+		Action_1__ctor_m9EFC6656FE579E4D72FFCA991DE5860FA28DD71E(L_3, __this, (intptr_t)((void*)XRHandOffset_DeviceConnected_m07CA6711EEC5DDEFD66687620550167F4664F3E3_RuntimeMethod_var), NULL);
+		InputDevices_add_deviceConnected_m0329DBAE47CA4A20778F7DCBA470FCF9A672E9C9(L_3, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:51>
+		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_4 = (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE*)il2cpp_codegen_object_new(List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_il2cpp_TypeInfo_var);
+		List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4(L_4, List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_RuntimeMethod_var);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:52>
+		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_5 = L_4;
+		InputDevices_GetDevices_mDB6E1E057DC81A1833AEB55B62FA22228D6EFA26(L_5, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:54>
+		NullCheck(L_5);
+		Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01 L_6;
+		L_6 = List_1_GetEnumerator_m099EE1B978423A69DAE032836B6FC9A39F7D1EE6(L_5, List_1_GetEnumerator_m099EE1B978423A69DAE032836B6FC9A39F7D1EE6_RuntimeMethod_var);
+		V_0 = L_6;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_005c:
+			{
+				Enumerator_Dispose_m7B899035F29D732606CA6BA2253BEBD41BECD3DC((&V_0), Enumerator_Dispose_m7B899035F29D732606CA6BA2253BEBD41BECD3DC_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0051_1;
+			}
+
+IL_0042_1:
+			{
+				//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:54>
+				InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD L_7;
+				L_7 = Enumerator_get_Current_m7D19F033982951230B318A08E829850451459AAE_inline((&V_0), Enumerator_get_Current_m7D19F033982951230B318A08E829850451459AAE_RuntimeMethod_var);
+				V_1 = L_7;
+				//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:55>
+				InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD L_8 = V_1;
+				XRHandOffset_DeviceConnected_m07CA6711EEC5DDEFD66687620550167F4664F3E3(__this, L_8, NULL);
+			}
+
+IL_0051_1:
+			{
+				//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:54>
+				bool L_9;
+				L_9 = Enumerator_MoveNext_m5267F7AD322ED3F12B552EC1C62F059932803E2E((&V_0), Enumerator_MoveNext_m5267F7AD322ED3F12B552EC1C62F059932803E2E_RuntimeMethod_var);
+				if (L_9)
+				{
+					goto IL_0042_1;
+				}
+			}
+			{
+				goto IL_006a;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_006a:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:57>
+		return;
+	}
+}
+// Method Definition Index: 85176
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandOffset_OnDisable_mAA35FA80E82B381CFD292FFDE92AAC152B01B8D9 (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XRHandOffset_DeviceConnected_m07CA6711EEC5DDEFD66687620550167F4664F3E3_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:60>
+		bool L_0 = __this->___hasProvider;
+		if (!L_0)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:61>
+		Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC* L_1 = (Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC*)il2cpp_codegen_object_new(Action_1_tFAB0B519749BBE2B7AAD946105FAE8116636A8BC_il2cpp_TypeInfo_var);
+		Action_1__ctor_m9EFC6656FE579E4D72FFCA991DE5860FA28DD71E(L_1, __this, (intptr_t)((void*)XRHandOffset_DeviceConnected_m07CA6711EEC5DDEFD66687620550167F4664F3E3_RuntimeMethod_var), NULL);
+		InputDevices_remove_deviceConnected_m52D0C5E73A9BBEEF775E21DF93DDF0DD4F7D1BB5(L_1, NULL);
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:63>
+		return;
+	}
+}
+// Method Definition Index: 85177
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandOffset_AdjustPositions_mB334BA952EB00D7CAE1D646DD333C82EE0577C85 (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* ___0_otherOffset, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* V_2 = NULL;
+	int32_t V_3 = 0;
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:67>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = XRHandOffset_GetDefaultPositionOffset_m963B0F6FDADBE37C74AA4C0D5814B9733436C1FD(__this, NULL);
+		XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* L_1 = ___0_otherOffset;
+		NullCheck(L_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = XRHandOffset_GetDefaultPositionOffset_m963B0F6FDADBE37C74AA4C0D5814B9733436C1FD(L_1, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_0, L_2, NULL);
+		V_0 = L_3;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:68>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = XRHandOffset_GetDefaultRotationOffset_mEA42A21572F7C4E6D205FC2184943BB08AF6669B(__this, NULL);
+		XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* L_5 = ___0_otherOffset;
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = XRHandOffset_GetDefaultRotationOffset_mEA42A21572F7C4E6D205FC2184943BB08AF6669B(L_5, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_4, L_6, NULL);
+		V_1 = L_7;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:70>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_8 = __this->___leftOffsets;
+		V_2 = L_8;
+		V_3 = 0;
+		goto IL_0088;
+	}
+
+IL_002f:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:70>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_9 = V_2;
+		int32_t L_10 = V_3;
+		NullCheck(L_9);
+		int32_t L_11 = L_10;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:71>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = L_12;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = L_13;
+		NullCheck(L_14);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_14, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_0;
+		float L_17 = L_16.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = V_0;
+		float L_19 = L_18.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_0;
+		float L_21 = L_20.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		memset((&L_22), 0, sizeof(L_22));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_22), ((-L_17)), L_19, L_21, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		L_23 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_15, L_22, NULL);
+		NullCheck(L_14);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_14, L_23, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:72>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24 = L_13;
+		NullCheck(L_24);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
+		L_25 = Transform_get_localEulerAngles_m358AA9AE8FA24FD1BB7842D231C8644D1C2910C6(L_24, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_1;
+		float L_27 = L_26.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = V_1;
+		float L_29 = L_28.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = V_1;
+		float L_31 = L_30.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		memset((&L_32), 0, sizeof(L_32));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_32), L_27, ((-L_29)), ((-L_31)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_25, L_32, NULL);
+		NullCheck(L_24);
+		Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF(L_24, L_33, NULL);
+		int32_t L_34 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_34, 1));
+	}
+
+IL_0088:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:70>
+		int32_t L_35 = V_3;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_36 = V_2;
+		NullCheck(L_36);
+		if ((((int32_t)L_35) < ((int32_t)((int32_t)(((RuntimeArray*)L_36)->max_length)))))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:75>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_37 = __this->___rightOffsets;
+		V_2 = L_37;
+		V_3 = 0;
+		goto IL_00c3;
+	}
+
+IL_0099:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:75>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_38 = V_2;
+		int32_t L_39 = V_3;
+		NullCheck(L_38);
+		int32_t L_40 = L_39;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_41 = (L_38)->GetAt(static_cast<il2cpp_array_size_t>(L_40));
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:76>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42 = L_41;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43 = L_42;
+		NullCheck(L_43);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
+		L_44 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_43, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46;
+		L_46 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_44, L_45, NULL);
+		NullCheck(L_43);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_43, L_46, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:77>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_47 = L_42;
+		NullCheck(L_47);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48;
+		L_48 = Transform_get_localEulerAngles_m358AA9AE8FA24FD1BB7842D231C8644D1C2910C6(L_47, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50;
+		L_50 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_48, L_49, NULL);
+		NullCheck(L_47);
+		Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF(L_47, L_50, NULL);
+		int32_t L_51 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_51, 1));
+	}
+
+IL_00c3:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:75>
+		int32_t L_52 = V_3;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_53 = V_2;
+		NullCheck(L_53);
+		if ((((int32_t)L_52) < ((int32_t)((int32_t)(((RuntimeArray*)L_53)->max_length)))))
+		{
+			goto IL_0099;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:79>
+		return;
+	}
+}
+// Method Definition Index: 85178
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandOffset_DeviceConnected_m07CA6711EEC5DDEFD66687620550167F4664F3E3 (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ___0_inputDevice, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* V_0 = NULL;
+	int32_t V_1 = 0;
+	DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* V_6 = NULL;
+	int32_t V_7 = 0;
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:82>
+		uint32_t L_0;
+		L_0 = InputDevice_get_characteristics_mEEDC9AB2254C155C47B48848FECF347A87925ADB((&___0_inputDevice), NULL);
+		if (!L_0)
+		{
+			goto IL_0171;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:83>
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_1 = __this->___devices;
+		V_0 = L_1;
+		V_1 = 0;
+		goto IL_0168;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:83>
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_2 = V_0;
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_2 = L_5;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:84>
+		bool L_6 = __this->___offsetDone;
+		if (L_6)
+		{
+			goto IL_0171;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:87>
+		V_3 = 0;
+		goto IL_0156;
+	}
+
+IL_0034:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:88>
+		String_t* L_7;
+		L_7 = InputDevice_get_name_mAEA08A3755E715697022C54227556428CEF4E1CE((&___0_inputDevice), NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m06155ED25645EBBC06B4C8F05235EF41B1489C7E(L_7, __this, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:89>
+		String_t* L_8;
+		L_8 = InputDevice_get_name_mAEA08A3755E715697022C54227556428CEF4E1CE((&___0_inputDevice), NULL);
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_9 = V_2;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_9.___deviceNames;
+		int32_t L_11 = V_3;
+		NullCheck(L_10);
+		int32_t L_12 = L_11;
+		String_t* L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		NullCheck(L_8);
+		bool L_14;
+		L_14 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_8, L_13, NULL);
+		if (!L_14)
+		{
+			goto IL_0152;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:90>
+		String_t* L_15 = __this->___defaultDevice;
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_16 = V_2;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = L_16.___deviceNames;
+		int32_t L_18 = V_3;
+		NullCheck(L_17);
+		int32_t L_19 = L_18;
+		String_t* L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
+		L_21 = XRHandOffset_GetPositionOffset_m0EFA276825D5DE10505573E074FCD871D6CD36FA(__this, L_15, L_20, NULL);
+		V_4 = L_21;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:91>
+		String_t* L_22 = __this->___defaultDevice;
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_23 = V_2;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = L_23.___deviceNames;
+		int32_t L_25 = V_3;
+		NullCheck(L_24);
+		int32_t L_26 = L_25;
+		String_t* L_27 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = XRHandOffset_GetRotationOffset_m8D9CE37B4CE0F7C2B204CC9A3CB6ED8C753D7EBD(__this, L_22, L_27, NULL);
+		V_5 = L_28;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:93>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_29 = __this->___leftOffsets;
+		V_6 = L_29;
+		V_7 = 0;
+		goto IL_00f6;
+	}
+
+IL_0093:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:93>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_30 = V_6;
+		int32_t L_31 = V_7;
+		NullCheck(L_30);
+		int32_t L_32 = L_31;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:94>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34 = L_33;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = L_34;
+		NullCheck(L_35);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
+		L_36 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_35, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = V_4;
+		float L_38 = L_37.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = V_4;
+		float L_40 = L_39.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41 = V_4;
+		float L_42 = L_41.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
+		memset((&L_43), 0, sizeof(L_43));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_43), ((-L_38)), L_40, L_42, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
+		L_44 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_36, L_43, NULL);
+		NullCheck(L_35);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_35, L_44, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:95>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_45 = L_34;
+		NullCheck(L_45);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_46;
+		L_46 = Transform_get_localEulerAngles_m358AA9AE8FA24FD1BB7842D231C8644D1C2910C6(L_45, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = V_5;
+		float L_48 = L_47.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49 = V_5;
+		float L_50 = L_49.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51 = V_5;
+		float L_52 = L_51.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53;
+		memset((&L_53), 0, sizeof(L_53));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_53), L_48, ((-L_50)), ((-L_52)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_54;
+		L_54 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_46, L_53, NULL);
+		NullCheck(L_45);
+		Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF(L_45, L_54, NULL);
+		int32_t L_55 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_55, 1));
+	}
+
+IL_00f6:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:93>
+		int32_t L_56 = V_7;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_57 = V_6;
+		NullCheck(L_57);
+		if ((((int32_t)L_56) < ((int32_t)((int32_t)(((RuntimeArray*)L_57)->max_length)))))
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:98>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_58 = __this->___rightOffsets;
+		V_6 = L_58;
+		V_7 = 0;
+		goto IL_013b;
+	}
+
+IL_010b:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:98>
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_59 = V_6;
+		int32_t L_60 = V_7;
+		NullCheck(L_59);
+		int32_t L_61 = L_60;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_62 = (L_59)->GetAt(static_cast<il2cpp_array_size_t>(L_61));
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:99>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_63 = L_62;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_64 = L_63;
+		NullCheck(L_64);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65;
+		L_65 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_64, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_66 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_67;
+		L_67 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_65, L_66, NULL);
+		NullCheck(L_64);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_64, L_67, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:100>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_68 = L_63;
+		NullCheck(L_68);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69;
+		L_69 = Transform_get_localEulerAngles_m358AA9AE8FA24FD1BB7842D231C8644D1C2910C6(L_68, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_70 = V_5;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71;
+		L_71 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_69, L_70, NULL);
+		NullCheck(L_68);
+		Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF(L_68, L_71, NULL);
+		int32_t L_72 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_72, 1));
+	}
+
+IL_013b:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:98>
+		int32_t L_73 = V_7;
+		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_74 = V_6;
+		NullCheck(L_74);
+		if ((((int32_t)L_73) < ((int32_t)((int32_t)(((RuntimeArray*)L_74)->max_length)))))
+		{
+			goto IL_010b;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:103>
+		XRHandOffset_OnDisable_mAA35FA80E82B381CFD292FFDE92AAC152B01B8D9(__this, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:105>
+		__this->___offsetDone = (bool)1;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:106>
+		goto IL_0164;
+	}
+
+IL_0152:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:87>
+		int32_t L_75 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_75, 1));
+	}
+
+IL_0156:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:87>
+		int32_t L_76 = V_3;
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_77 = V_2;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_78 = L_77.___deviceNames;
+		NullCheck(L_78);
+		if ((((int32_t)L_76) < ((int32_t)((int32_t)(((RuntimeArray*)L_78)->max_length)))))
+		{
+			goto IL_0034;
+		}
+	}
+
+IL_0164:
+	{
+		int32_t L_79 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_79, 1));
+	}
+
+IL_0168:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:83>
+		int32_t L_80 = V_1;
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_81 = V_0;
+		NullCheck(L_81);
+		if ((((int32_t)L_80) < ((int32_t)((int32_t)(((RuntimeArray*)L_81)->max_length)))))
+		{
+			goto IL_001a;
+		}
+	}
+
+IL_0171:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:111>
+		return;
+	}
+}
+// Method Definition Index: 85179
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandOffset_GetPositionOffset_m0EFA276825D5DE10505573E074FCD871D6CD36FA (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, String_t* ___0_from, String_t* ___1_to, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* V_2 = NULL;
+	int32_t V_3 = 0;
+	DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_5 = NULL;
+	int32_t V_6 = 0;
+	String_t* G_B6_0 = NULL;
+	String_t* G_B5_0 = NULL;
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:115>
+		String_t* L_0 = ___0_from;
+		String_t* L_1 = ___1_to;
+		bool L_2;
+		L_2 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_0, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:116>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		return L_3;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:118>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = L_4;
+		V_0 = L_5;
+		V_1 = L_5;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:119>
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_6 = __this->___devices;
+		V_2 = L_6;
+		V_3 = 0;
+		goto IL_0071;
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:119>
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_7 = V_2;
+		int32_t L_8 = V_3;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		V_4 = L_10;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:120>
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_11 = V_4;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_11.___deviceNames;
+		V_5 = L_12;
+		V_6 = 0;
+		goto IL_0065;
+	}
+
+IL_0039:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:120>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = V_5;
+		int32_t L_14 = V_6;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		String_t* L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:121>
+		String_t* L_17 = L_16;
+		String_t* L_18 = ___0_from;
+		bool L_19;
+		L_19 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_17, L_18, NULL);
+		if (!L_19)
+		{
+			G_B6_0 = L_17;
+			goto IL_004f;
+		}
+		G_B5_0 = L_17;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:122>
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_20 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = L_20.___position;
+		V_0 = L_21;
+		G_B6_0 = G_B5_0;
+	}
+
+IL_004f:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:123>
+		String_t* L_22 = ___1_to;
+		bool L_23;
+		L_23 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(G_B6_0, L_22, NULL);
+		if (!L_23)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:124>
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_24 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = L_24.___position;
+		V_1 = L_25;
+	}
+
+IL_005f:
+	{
+		int32_t L_26 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_0065:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:120>
+		int32_t L_27 = V_6;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_28 = V_5;
+		NullCheck(L_28);
+		if ((((int32_t)L_27) < ((int32_t)((int32_t)(((RuntimeArray*)L_28)->max_length)))))
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		int32_t L_29 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_29, 1));
+	}
+
+IL_0071:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:119>
+		int32_t L_30 = V_3;
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_31 = V_2;
+		NullCheck(L_31);
+		if ((((int32_t)L_30) < ((int32_t)((int32_t)(((RuntimeArray*)L_31)->max_length)))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:128>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
+		L_34 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_32, L_33, NULL);
+		return L_34;
+	}
+}
+// Method Definition Index: 85180
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandOffset_GetRotationOffset_m8D9CE37B4CE0F7C2B204CC9A3CB6ED8C753D7EBD (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, String_t* ___0_from, String_t* ___1_to, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* V_2 = NULL;
+	int32_t V_3 = 0;
+	DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_5 = NULL;
+	int32_t V_6 = 0;
+	String_t* G_B6_0 = NULL;
+	String_t* G_B5_0 = NULL;
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:133>
+		String_t* L_0 = ___0_from;
+		String_t* L_1 = ___1_to;
+		bool L_2;
+		L_2 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_0, L_1, NULL);
+		if (!L_2)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:134>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		return L_3;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:136>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = L_4;
+		V_0 = L_5;
+		V_1 = L_5;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:137>
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_6 = __this->___devices;
+		V_2 = L_6;
+		V_3 = 0;
+		goto IL_0071;
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:137>
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_7 = V_2;
+		int32_t L_8 = V_3;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		V_4 = L_10;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:138>
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_11 = V_4;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_11.___deviceNames;
+		V_5 = L_12;
+		V_6 = 0;
+		goto IL_0065;
+	}
+
+IL_0039:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:138>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = V_5;
+		int32_t L_14 = V_6;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		String_t* L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:139>
+		String_t* L_17 = L_16;
+		String_t* L_18 = ___0_from;
+		bool L_19;
+		L_19 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_17, L_18, NULL);
+		if (!L_19)
+		{
+			G_B6_0 = L_17;
+			goto IL_004f;
+		}
+		G_B5_0 = L_17;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:140>
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_20 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = L_20.___rotation;
+		V_0 = L_21;
+		G_B6_0 = G_B5_0;
+	}
+
+IL_004f:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:141>
+		String_t* L_22 = ___1_to;
+		bool L_23;
+		L_23 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(G_B6_0, L_22, NULL);
+		if (!L_23)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:142>
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_24 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = L_24.___rotation;
+		V_1 = L_25;
+	}
+
+IL_005f:
+	{
+		int32_t L_26 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_26, 1));
+	}
+
+IL_0065:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:138>
+		int32_t L_27 = V_6;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_28 = V_5;
+		NullCheck(L_28);
+		if ((((int32_t)L_27) < ((int32_t)((int32_t)(((RuntimeArray*)L_28)->max_length)))))
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		int32_t L_29 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_29, 1));
+	}
+
+IL_0071:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:137>
+		int32_t L_30 = V_3;
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_31 = V_2;
+		NullCheck(L_31);
+		if ((((int32_t)L_30) < ((int32_t)((int32_t)(((RuntimeArray*)L_31)->max_length)))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:146>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
+		L_34 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_32, L_33, NULL);
+		return L_34;
+	}
+}
+// Method Definition Index: 85181
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandOffset_GetDefaultPositionOffset_m963B0F6FDADBE37C74AA4C0D5814B9733436C1FD (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* V_1 = NULL;
+	int32_t V_2 = 0;
+	DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_4 = NULL;
+	int32_t V_5 = 0;
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:151>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_0 = L_0;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:152>
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_1 = __this->___devices;
+		V_1 = L_1;
+		V_2 = 0;
+		goto IL_0051;
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:152>
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_2 = V_1;
+		int32_t L_3 = V_2;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_3 = L_5;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:153>
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_6 = V_3;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_6.___deviceNames;
+		V_4 = L_7;
+		V_5 = 0;
+		goto IL_0045;
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:153>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = V_4;
+		int32_t L_9 = V_5;
+		NullCheck(L_8);
+		int32_t L_10 = L_9;
+		String_t* L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:154>
+		String_t* L_12 = __this->___defaultDevice;
+		bool L_13;
+		L_13 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_11, L_12, NULL);
+		if (!L_13)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:155>
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_14 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = L_14.___position;
+		V_0 = L_15;
+	}
+
+IL_003f:
+	{
+		int32_t L_16 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0045:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:153>
+		int32_t L_17 = V_5;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = V_4;
+		NullCheck(L_18);
+		if ((((int32_t)L_17) < ((int32_t)((int32_t)(((RuntimeArray*)L_18)->max_length)))))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		int32_t L_19 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+	}
+
+IL_0051:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:152>
+		int32_t L_20 = V_2;
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_21 = V_1;
+		NullCheck(L_21);
+		if ((((int32_t)L_20) < ((int32_t)((int32_t)(((RuntimeArray*)L_21)->max_length)))))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:159>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_0;
+		return L_22;
+	}
+}
+// Method Definition Index: 85182
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 XRHandOffset_GetDefaultRotationOffset_mEA42A21572F7C4E6D205FC2184943BB08AF6669B (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* V_1 = NULL;
+	int32_t V_2 = 0;
+	DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_4 = NULL;
+	int32_t V_5 = 0;
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:164>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_0 = L_0;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:165>
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_1 = __this->___devices;
+		V_1 = L_1;
+		V_2 = 0;
+		goto IL_0051;
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:165>
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_2 = V_1;
+		int32_t L_3 = V_2;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_3 = L_5;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:166>
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_6 = V_3;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_6.___deviceNames;
+		V_4 = L_7;
+		V_5 = 0;
+		goto IL_0045;
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:166>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = V_4;
+		int32_t L_9 = V_5;
+		NullCheck(L_8);
+		int32_t L_10 = L_9;
+		String_t* L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:167>
+		String_t* L_12 = __this->___defaultDevice;
+		bool L_13;
+		L_13 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_11, L_12, NULL);
+		if (!L_13)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:168>
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_14 = V_3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = L_14.___rotation;
+		V_0 = L_15;
+	}
+
+IL_003f:
+	{
+		int32_t L_16 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0045:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:166>
+		int32_t L_17 = V_5;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = V_4;
+		NullCheck(L_18);
+		if ((((int32_t)L_17) < ((int32_t)((int32_t)(((RuntimeArray*)L_18)->max_length)))))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		int32_t L_19 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_19, 1));
+	}
+
+IL_0051:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:165>
+		int32_t L_20 = V_2;
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_21 = V_1;
+		NullCheck(L_21);
+		if ((((int32_t)L_20) < ((int32_t)((int32_t)(((RuntimeArray*)L_21)->max_length)))))
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:172>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_0;
+		return L_22;
+	}
+}
+// Method Definition Index: 85183
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandOffset__ctor_mE2E146F61CFE15C0A473BA3F3CA878395C58A3B2 (XRHandOffset_t5F21CC06ED9DC1557CEF839C374E75564A37C34D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0E790D173D0941EFEB28075238C80144C75ED2B5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1C3B83E7128DFE5344885801249731AA7F849057);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral373488836594D56EA532FB8BB7D5AD854C88D4C3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral58E82DB60E5791C030867CA548F9C1FEBFDAF046);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5DF4B9871B0752E52751C58BE90B1F7DFD08F302);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA73F4360C56103ED788368C9769D9E67B8857E15);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB09640463D22396686FADC42FC875FB2637B5954);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:28>
+		__this->___defaultDevice = _stringLiteralA73F4360C56103ED788368C9769D9E67B8857E15;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___defaultDevice), (void*)_stringLiteralA73F4360C56103ED788368C9769D9E67B8857E15);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:35>
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:36>
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:37>
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:38>
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandOffset.cs:39>
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_0 = (DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462*)(DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462*)SZArrayNew(DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462_il2cpp_TypeInfo_var, (uint32_t)3);
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_1 = L_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2), (0.00499999989f), (-0.0160000008f), (0.0140000004f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_3), (48.0f), (0.0f), (15.0f), NULL);
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		DeviceData__ctor_m1F1301AE38194A47BC78C4A21806271E41AE3084((&L_4), _stringLiteralA73F4360C56103ED788368C9769D9E67B8857E15, L_2, L_3, NULL);
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC)L_4);
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_5 = L_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_6), (0.00300000003f), (-0.00499999989f), (-0.0780000016f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_7), (36.0f), (-12.0f), (2.0f), NULL);
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		DeviceData__ctor_m1F1301AE38194A47BC78C4A21806271E41AE3084((&L_8), _stringLiteral58E82DB60E5791C030867CA548F9C1FEBFDAF046, L_6, L_7, NULL);
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC)L_8);
+		DeviceDataU5BU5D_t7D0EB61847D6769043383A28F3BE7CC62F871462* L_9 = L_5;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = L_10;
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral373488836594D56EA532FB8BB7D5AD854C88D4C3);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_11;
+		NullCheck(L_12);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral5DF4B9871B0752E52751C58BE90B1F7DFD08F302);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = L_12;
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral1C3B83E7128DFE5344885801249731AA7F849057);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = L_13;
+		NullCheck(L_14);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteralB09640463D22396686FADC42FC875FB2637B5954);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_15 = L_14;
+		NullCheck(L_15);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteral0E790D173D0941EFEB28075238C80144C75ED2B5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_16), (0.0149999997f), (0.0f), (0.0412000008f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		memset((&L_17), 0, sizeof(L_17));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_17), (30.0f), (-17.0f), (0.0f), NULL);
+		DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		DeviceData__ctor_m2EFE81AE043851104D42A1683ABBA86EE5F2FE30((&L_18), L_15, L_16, L_17, NULL);
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (DeviceData_tB03449C86B082C3F18A902E4230419A5319A2DEC)L_18);
+		__this->___devices = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___devices), (void*)L_9);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85184
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m283C5D9AB109CE924AFB5D2ED466A1EF2748C2EB (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tE4B7ECE3F924825081DCED859A5C828206D96B30____036A3C8A3D38231D42B6067A77A30963FE65F21A6B93D2724CB89E9BF122C17E_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_tE4B7ECE3F924825081DCED859A5C828206D96B30____43C46CF015E1BB597A7D5EEF28745237529E3692990EC616F6AB12A01D2B88CF_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)729));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tE4B7ECE3F924825081DCED859A5C828206D96B30____036A3C8A3D38231D42B6067A77A30963FE65F21A6B93D2724CB89E9BF122C17E_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)367));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_tE4B7ECE3F924825081DCED859A5C828206D96B30____43C46CF015E1BB597A7D5EEF28745237529E3692990EC616F6AB12A01D2B88CF_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = ((int32_t)10);
+		(&V_0)->___TotalTypes = ((int32_t)11);
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 85185
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE892760519978639181D98027E77166EC4F876B7 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC24E8CFF0073DD34A38C49DD01C0B80FF0D880E6* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE_marshal_pinvoke(const MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE& unmarshaled, MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE_marshal_pinvoke_back(const MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE_marshaled_pinvoke& marshaled, MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE_marshal_pinvoke_cleanup(MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE_marshal_com(const MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE& unmarshaled, MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE_marshal_com_back(const MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE_marshaled_com& marshaled, MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE_marshal_com_cleanup(MonoScriptData_t90A8E74C24BD6061231F2988BA32573DE80547BE_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85186
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMover_LateUpdate_mD04DAFB7FBB734DD9E32874DC877E7431129FB02 (XRMover_t600DCF258BBE9D5669D7DD3047801991F7E5561F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:36>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_0 = __this->___turningController;
+		int32_t L_1 = __this->___moverAxis;
+		NullCheck(L_0);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
+		L_2 = XRHandControllerLink_GetAxis2D_mD86260403C989761DFEDE33F5945DF497D623943(L_0, L_1, NULL);
+		__this->___turningAxis = L_2;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:37>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_3 = __this->___moverController;
+		int32_t L_4 = __this->___moverAxis;
+		NullCheck(L_3);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5;
+		L_5 = XRHandControllerLink_GetAxis2D_mD86260403C989761DFEDE33F5945DF497D623943(L_3, L_4, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_5, NULL);
+		__this->___moveAxis = L_6;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:39>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___moveAxis);
+		float L_8 = L_7->___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_9 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___moveAxis);
+		float L_10 = L_9->___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_11 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___moveAxis);
+		float L_12 = L_11->___y;
+		XRMover_Move_mE31651F5252535F96A4222D074EE2BD09D686E08(__this, L_8, L_10, L_12, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:40>
+		XRMover_Turning_mB4CD4110CE97038A91A40B120DAEA85EAE2F1406(__this, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:41>
+		return;
+	}
+}
+// Method Definition Index: 85187
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMover_Awake_mF1A16E61DF4A36EE27806E4C53E2B6F5C52C89D5 (XRMover_t600DCF258BBE9D5669D7DD3047801991F7E5561F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6092D256F3A5AF4EE810336D1DB031D38C58635A);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:45>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		int32_t L_1;
+		L_1 = LayerMask_NameToLayer_m2764C530EDA9EC3226A36E3FD43E020B413AF139(_stringLiteral6092D256F3A5AF4EE810336D1DB031D38C58635A, NULL);
+		NullCheck(L_0);
+		GameObject_set_layer_m6E1AF478A2CC86BD222B96317BEB78B7D89B18D0(L_0, L_1, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:46>
+		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_2;
+		L_2 = Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040(__this, Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040_RuntimeMethod_var);
+		__this->___controller = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___controller), (void*)L_2);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:47>
+		return;
+	}
+}
+// Method Definition Index: 85188
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMover_Move_mE31651F5252535F96A4222D074EE2BD09D686E08 (XRMover_t600DCF258BBE9D5669D7DD3047801991F7E5561F* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:52>
+		float L_0 = ___0_x;
+		float L_1 = ___1_y;
+		float L_2 = ___2_z;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_0), L_0, L_1, L_2, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:53>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___cam;
+		NullCheck(L_3);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_3, NULL);
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A(L_4, NULL);
+		float L_6 = L_5.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_7), (0.0f), L_6, (0.0f), NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:55>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
+		L_8 = Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_8, L_9, NULL);
+		V_0 = L_10;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:57>
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Physics_get_gravity_m94393492AE4ED8B38A22ECCDCD2DDDB71BFA010D(NULL);
+		float L_12 = L_11.___y;
+		float L_13 = __this->___gravity;
+		__this->___currentGravity = ((float)il2cpp_codegen_multiply(L_12, L_13));
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:59>
+		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_14 = __this->___controller;
+		NullCheck(L_14);
+		bool L_15;
+		L_15 = CharacterController_get_isGrounded_m548072EC190878925C0F97595B6C307714EFDD67(L_14, NULL);
+		if (!L_15)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:60>
+		__this->___currentGravity = (0.0f);
+	}
+
+IL_0069:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:62>
+		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_16 = __this->___controller;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = V_0;
+		float L_18 = L_17.___x;
+		float L_19 = __this->___speed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_0;
+		float L_21 = L_20.___y;
+		float L_22 = __this->___speed;
+		float L_23 = __this->___currentGravity;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_0;
+		float L_25 = L_24.___z;
+		float L_26 = __this->___speed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_27), ((float)il2cpp_codegen_multiply(L_18, L_19)), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_21, L_22)), L_23)), ((float)il2cpp_codegen_multiply(L_25, L_26)), NULL);
+		float L_28;
+		L_28 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_27, L_28, NULL);
+		NullCheck(L_16);
+		int32_t L_30;
+		L_30 = CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4(L_16, L_29, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:63>
+		return;
+	}
+}
+// Method Definition Index: 85189
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMover_Turning_mB4CD4110CE97038A91A40B120DAEA85EAE2F1406 (XRMover_t600DCF258BBE9D5669D7DD3047801991F7E5561F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:68>
+		bool L_0 = __this->___snapTurning;
+		if (!L_0)
+		{
+			goto IL_00c5;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:69>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_1 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___turningAxis);
+		float L_2 = L_1->___x;
+		if ((!(((float)L_2) > ((float)(0.699999988f)))))
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		bool L_3 = __this->___axisReset;
+		if (!L_3)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:70>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = L_4;
+		NullCheck(L_5);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6;
+		L_6 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_5, NULL);
+		float L_7 = __this->___turnAngle;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
+		L_8 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), L_7, (0.0f), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9;
+		L_9 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_6, L_8, NULL);
+		NullCheck(L_5);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_5, L_9, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:71>
+		__this->___axisReset = (bool)0;
+		goto IL_00a6;
+	}
+
+IL_0059:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:73>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_10 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___turningAxis);
+		float L_11 = L_10->___x;
+		if ((!(((float)L_11) < ((float)(-0.699999988f)))))
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		bool L_12 = __this->___axisReset;
+		if (!L_12)
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:74>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
+		L_13 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = L_13;
+		NullCheck(L_14);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15;
+		L_15 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_14, NULL);
+		float L_16 = __this->___turnAngle;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_17;
+		L_17 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), ((-L_16)), (0.0f), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18;
+		L_18 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_15, L_17, NULL);
+		NullCheck(L_14);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_14, L_18, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:75>
+		__this->___axisReset = (bool)0;
+	}
+
+IL_00a6:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:78>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_19 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___turningAxis);
+		float L_20 = L_19->___x;
+		float L_21;
+		L_21 = fabsf(L_20);
+		if ((!(((float)L_21) < ((float)(0.400000006f)))))
+		{
+			goto IL_0102;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:79>
+		__this->___axisReset = (bool)1;
+		return;
+	}
+
+IL_00c5:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:84>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
+		L_22 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23 = L_22;
+		NullCheck(L_23);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24;
+		L_24 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_23, NULL);
+		float L_25;
+		L_25 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_26 = __this->___turnAngle;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_27 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___turningAxis);
+		float L_28 = L_27->___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_29;
+		L_29 = Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline((0.0f), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_25, L_26)), L_28)), (0.0f), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30;
+		L_30 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_24, L_29, NULL);
+		NullCheck(L_23);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_23, L_30, NULL);
+	}
+
+IL_0102:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:86>
+		return;
+	}
+}
+// Method Definition Index: 85190
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMover__ctor_m6761D7A5FBAA8925A157A29AFBF83D24737FD2F1 (XRMover_t600DCF258BBE9D5669D7DD3047801991F7E5561F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:24>
+		__this->___speed = (5.0f);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:25>
+		__this->___gravity = (1.0f);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRMover.cs:29>
+		__this->___axisReset = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85191
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRAutoHandAxisFingerBender_LateUpdate_mFBFD19A53CA6B17D752D708DE5060ED291CCCDBF (XRAutoHandAxisFingerBender_t54C0D70AF33F2CA3A067881CF8D643AAC17B9753* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandAxisFingerBender.cs:15>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_0 = __this->___controller;
+		int32_t L_1 = __this->___axis;
+		NullCheck(L_0);
+		float L_2;
+		L_2 = XRHandControllerLink_GetAxis_m978F26B462A2A29BB6ECA614984D221DCF94F353(L_0, L_1, NULL);
+		V_0 = L_2;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandAxisFingerBender.cs:16>
+		V_1 = 0;
+		goto IL_0049;
+	}
+
+IL_0016:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandAxisFingerBender.cs:17>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_3 = __this->___controller;
+		NullCheck(L_3);
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_4 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)L_3)->___hand;
+		NullCheck(L_4);
+		FingerU5BU5D_t815754A92A73203E15FBC68B1FD4A793D2BD90F7* L_5 = ((HandBase_t72CE151A5F26B55B4DE49D45CCB1858ED65136AE*)L_4)->___fingers;
+		int32_t L_6 = V_1;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		Finger_t0C777A49177510A549060E71A03A3DD5668116A5* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		Finger_t0C777A49177510A549060E71A03A3DD5668116A5* L_9 = L_8;
+		NullCheck(L_9);
+		float L_10 = L_9->___bendOffset;
+		float L_11 = V_0;
+		float L_12 = __this->___lastAxis;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_13 = __this->___bendOffsets;
+		int32_t L_14 = V_1;
+		NullCheck(L_13);
+		int32_t L_15 = L_14;
+		float L_16 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		NullCheck(L_9);
+		L_9->___bendOffset = ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_11, L_12)), L_16))));
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandAxisFingerBender.cs:16>
+		int32_t L_17 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_17, 1));
+	}
+
+IL_0049:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandAxisFingerBender.cs:16>
+		int32_t L_18 = V_1;
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_19 = __this->___controller;
+		NullCheck(L_19);
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_20 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)L_19)->___hand;
+		NullCheck(L_20);
+		FingerU5BU5D_t815754A92A73203E15FBC68B1FD4A793D2BD90F7* L_21 = ((HandBase_t72CE151A5F26B55B4DE49D45CCB1858ED65136AE*)L_20)->___fingers;
+		NullCheck(L_21);
+		if ((((int32_t)L_18) < ((int32_t)((int32_t)(((RuntimeArray*)L_21)->max_length)))))
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandAxisFingerBender.cs:19>
+		float L_22 = V_0;
+		__this->___lastAxis = L_22;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandAxisFingerBender.cs:20>
+		return;
+	}
+}
+// Method Definition Index: 85192
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRAutoHandAxisFingerBender_OnDrawGizmosSelected_m20A1B714F919DC2B37E77338B87D76248D54D516 (XRAutoHandAxisFingerBender_t54C0D70AF33F2CA3A067881CF8D643AAC17B9753* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_mD748E56A02C37DEA9FD59EB365DD196F04B5E147_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandAxisFingerBender.cs:24>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_0 = __this->___controller;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_2;
+		L_2 = Component_GetComponent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_mD748E56A02C37DEA9FD59EB365DD196F04B5E147(__this, Component_GetComponent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_mD748E56A02C37DEA9FD59EB365DD196F04B5E147_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandAxisFingerBender.cs:25>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_4;
+		L_4 = Component_GetComponent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_mD748E56A02C37DEA9FD59EB365DD196F04B5E147(__this, Component_GetComponent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_mD748E56A02C37DEA9FD59EB365DD196F04B5E147_RuntimeMethod_var);
+		__this->___controller = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___controller), (void*)L_4);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandAxisFingerBender.cs:26>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_5 = __this->___controller;
+		NullCheck(L_5);
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_6 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)L_5)->___hand;
+		NullCheck(L_6);
+		FingerU5BU5D_t815754A92A73203E15FBC68B1FD4A793D2BD90F7* L_7 = ((HandBase_t72CE151A5F26B55B4DE49D45CCB1858ED65136AE*)L_6)->___fingers;
+		NullCheck(L_7);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_8 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_7)->max_length)));
+		__this->___bendOffsets = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___bendOffsets), (void*)L_8);
+	}
+
+IL_0044:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandAxisFingerBender.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 85193
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRAutoHandAxisFingerBender__ctor_mE8E2704654F52B3F9D66380F22D97D49DB17275A (XRAutoHandAxisFingerBender_t54C0D70AF33F2CA3A067881CF8D643AAC17B9753* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85194
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRAutoHandFingerBender_Update_m1D543069780729FA9507B03AEF232866DCA42B2B (XRAutoHandFingerBender_tFA95106E9CF293D2AB5019C3C43F372C1B567A74* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:16>
+		bool L_0 = __this->___pressed;
+		if (L_0)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_1 = __this->___controller;
+		int32_t L_2 = __this->___button;
+		NullCheck(L_1);
+		bool L_3;
+		L_3 = XRHandControllerLink_ButtonPressed_m4ACF17435EF43EC7818D0455C923CCC3936B5787(L_1, L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:17>
+		__this->___pressed = (bool)1;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:18>
+		V_0 = 0;
+		goto IL_0050;
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:19>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_4 = __this->___controller;
+		NullCheck(L_4);
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_5 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)L_4)->___hand;
+		NullCheck(L_5);
+		FingerU5BU5D_t815754A92A73203E15FBC68B1FD4A793D2BD90F7* L_6 = ((HandBase_t72CE151A5F26B55B4DE49D45CCB1858ED65136AE*)L_5)->___fingers;
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		Finger_t0C777A49177510A549060E71A03A3DD5668116A5* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		Finger_t0C777A49177510A549060E71A03A3DD5668116A5* L_10 = L_9;
+		NullCheck(L_10);
+		float L_11 = L_10->___bendOffset;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_12 = __this->___bendOffsets;
+		int32_t L_13 = V_0;
+		NullCheck(L_12);
+		int32_t L_14 = L_13;
+		float L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		NullCheck(L_10);
+		L_10->___bendOffset = ((float)il2cpp_codegen_add(L_11, L_15));
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:18>
+		int32_t L_16 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0050:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:18>
+		int32_t L_17 = V_0;
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_18 = __this->___controller;
+		NullCheck(L_18);
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_19 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)L_18)->___hand;
+		NullCheck(L_19);
+		FingerU5BU5D_t815754A92A73203E15FBC68B1FD4A793D2BD90F7* L_20 = ((HandBase_t72CE151A5F26B55B4DE49D45CCB1858ED65136AE*)L_19)->___fingers;
+		NullCheck(L_20);
+		if ((((int32_t)L_17) < ((int32_t)((int32_t)(((RuntimeArray*)L_20)->max_length)))))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0066:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:22>
+		bool L_21 = __this->___pressed;
+		if (!L_21)
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_22 = __this->___controller;
+		int32_t L_23 = __this->___button;
+		NullCheck(L_22);
+		bool L_24;
+		L_24 = XRHandControllerLink_ButtonPressed_m4ACF17435EF43EC7818D0455C923CCC3936B5787(L_22, L_23, NULL);
+		if (L_24)
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:23>
+		__this->___pressed = (bool)0;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:24>
+		V_1 = 0;
+		goto IL_00b6;
+	}
+
+IL_008c:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:25>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_25 = __this->___controller;
+		NullCheck(L_25);
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_26 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)L_25)->___hand;
+		NullCheck(L_26);
+		FingerU5BU5D_t815754A92A73203E15FBC68B1FD4A793D2BD90F7* L_27 = ((HandBase_t72CE151A5F26B55B4DE49D45CCB1858ED65136AE*)L_26)->___fingers;
+		int32_t L_28 = V_1;
+		NullCheck(L_27);
+		int32_t L_29 = L_28;
+		Finger_t0C777A49177510A549060E71A03A3DD5668116A5* L_30 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_29));
+		Finger_t0C777A49177510A549060E71A03A3DD5668116A5* L_31 = L_30;
+		NullCheck(L_31);
+		float L_32 = L_31->___bendOffset;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_33 = __this->___bendOffsets;
+		int32_t L_34 = V_1;
+		NullCheck(L_33);
+		int32_t L_35 = L_34;
+		float L_36 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		NullCheck(L_31);
+		L_31->___bendOffset = ((float)il2cpp_codegen_subtract(L_32, L_36));
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:24>
+		int32_t L_37 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
+	}
+
+IL_00b6:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:24>
+		int32_t L_38 = V_1;
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_39 = __this->___controller;
+		NullCheck(L_39);
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_40 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)L_39)->___hand;
+		NullCheck(L_40);
+		FingerU5BU5D_t815754A92A73203E15FBC68B1FD4A793D2BD90F7* L_41 = ((HandBase_t72CE151A5F26B55B4DE49D45CCB1858ED65136AE*)L_40)->___fingers;
+		NullCheck(L_41);
+		if ((((int32_t)L_38) < ((int32_t)((int32_t)(((RuntimeArray*)L_41)->max_length)))))
+		{
+			goto IL_008c;
+		}
+	}
+
+IL_00cb:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 85195
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRAutoHandFingerBender_OnDrawGizmosSelected_m31518A54D4B596514F6EDA6A2B78A09DA4E931AC (XRAutoHandFingerBender_tFA95106E9CF293D2AB5019C3C43F372C1B567A74* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_mD748E56A02C37DEA9FD59EB365DD196F04B5E147_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:32>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_0 = __this->___controller;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_2;
+		L_2 = Component_GetComponent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_mD748E56A02C37DEA9FD59EB365DD196F04B5E147(__this, Component_GetComponent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_mD748E56A02C37DEA9FD59EB365DD196F04B5E147_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:33>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_4;
+		L_4 = Component_GetComponent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_mD748E56A02C37DEA9FD59EB365DD196F04B5E147(__this, Component_GetComponent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_mD748E56A02C37DEA9FD59EB365DD196F04B5E147_RuntimeMethod_var);
+		__this->___controller = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___controller), (void*)L_4);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:34>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_5 = __this->___controller;
+		NullCheck(L_5);
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_6 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)L_5)->___hand;
+		NullCheck(L_6);
+		FingerU5BU5D_t815754A92A73203E15FBC68B1FD4A793D2BD90F7* L_7 = ((HandBase_t72CE151A5F26B55B4DE49D45CCB1858ED65136AE*)L_6)->___fingers;
+		NullCheck(L_7);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_8 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_7)->max_length)));
+		__this->___bendOffsets = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___bendOffsets), (void*)L_8);
+	}
+
+IL_0044:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRAutoHandFingerBender.cs:36>
+		return;
+	}
+}
+// Method Definition Index: 85196
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRAutoHandFingerBender__ctor_m28479620DF05C5798025018F74A86828EE836425 (XRAutoHandFingerBender_tFA95106E9CF293D2AB5019C3C43F372C1B567A74* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85197
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRControllerEvent_Start_m2FF608272C089872555C0B0133DA054C2755FB3E (XRControllerEvent_tDE19241ABE04E5A463C7B858C0E9C15882206164* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_m6F2A389D2E080E51F750EBEEF8ED193C88EC9BD0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC365DCA63888D68B04B9B7EE0C9FBE215B1F9687);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRControllerEvent.cs:16>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_0 = __this->___link;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRControllerEvent.cs:17>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_2;
+		L_2 = Component_GetComponentInParent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_m6F2A389D2E080E51F750EBEEF8ED193C88EC9BD0(__this, Component_GetComponentInParent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_m6F2A389D2E080E51F750EBEEF8ED193C88EC9BD0_RuntimeMethod_var);
+		__this->___link = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___link), (void*)L_2);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRControllerEvent.cs:18>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_3 = __this->___link;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRControllerEvent.cs:19>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteralC365DCA63888D68B04B9B7EE0C9FBE215B1F9687, __this, NULL);
+	}
+
+IL_0033:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRControllerEvent.cs:21>
+		return;
+	}
+}
+// Method Definition Index: 85198
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRControllerEvent_Update_m2C7E70307B6F52C554EBC254C369486E0A7B4ACD (XRControllerEvent_tDE19241ABE04E5A463C7B858C0E9C15882206164* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B6_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B5_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B12_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B11_0 = NULL;
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRControllerEvent.cs:25>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_0 = __this->___link;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRControllerEvent.cs:26>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRControllerEvent.cs:28>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_2 = __this->___link;
+		int32_t L_3 = __this->___button;
+		NullCheck(L_2);
+		bool L_4;
+		L_4 = XRHandControllerLink_ButtonPressed_m4ACF17435EF43EC7818D0455C923CCC3936B5787(L_2, L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		bool L_5 = __this->___pressed;
+		if (L_5)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRControllerEvent.cs:30>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_6 = __this->___Pressed;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_7 = L_6;
+		if (L_7)
+		{
+			G_B6_0 = L_7;
+			goto IL_0036;
+		}
+		G_B5_0 = L_7;
+	}
+	{
+		goto IL_003b;
+	}
+
+IL_0036:
+	{
+		NullCheck(G_B6_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B6_0, NULL);
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRControllerEvent.cs:31>
+		__this->___pressed = (bool)1;
+		return;
+	}
+
+IL_0043:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRControllerEvent.cs:33>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_8 = __this->___link;
+		int32_t L_9 = __this->___button;
+		NullCheck(L_8);
+		bool L_10;
+		L_10 = XRHandControllerLink_ButtonPressed_m4ACF17435EF43EC7818D0455C923CCC3936B5787(L_8, L_9, NULL);
+		if (L_10)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		bool L_11 = __this->___pressed;
+		if (!L_11)
+		{
+			goto IL_0076;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRControllerEvent.cs:35>
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_12 = __this->___Released;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_13 = L_12;
+		if (L_13)
+		{
+			G_B12_0 = L_13;
+			goto IL_006a;
+		}
+		G_B11_0 = L_13;
+	}
+	{
+		goto IL_006f;
+	}
+
+IL_006a:
+	{
+		NullCheck(G_B12_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B12_0, NULL);
+	}
+
+IL_006f:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRControllerEvent.cs:36>
+		__this->___pressed = (bool)0;
+	}
+
+IL_0076:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRControllerEvent.cs:38>
+		return;
+	}
+}
+// Method Definition Index: 85199
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRControllerEvent__ctor_mE3242C6ED8CA04FFE1CC44F34282063FE77277E2 (XRControllerEvent_tDE19241ABE04E5A463C7B858C0E9C15882206164* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85200
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandControllerLink_Start_mEB71FF3D887D6DBE5B92C1E77A6FD71B8026FC1B (XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral410170300E3FF06884D72D6183CF8901ACAC6F7E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:52>
+		int32_t L_0 = __this->___grabButton;
+		int32_t L_1 = __this->___squeezeButton;
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:53>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteral410170300E3FF06884D72D6183CF8901ACAC6F7E, __this, NULL);
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:56>
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_2 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)__this)->___hand;
+		NullCheck(L_2);
+		bool L_3 = ((HandBase_t72CE151A5F26B55B4DE49D45CCB1858ED65136AE*)L_2)->___left;
+		if (!L_3)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:57>
+		__this->___role = 4;
+		goto IL_0036;
+	}
+
+IL_002f:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:59>
+		__this->___role = 5;
+	}
+
+IL_0036:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:61>
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_4 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)__this)->___hand;
+		NullCheck(L_4);
+		bool L_5 = ((HandBase_t72CE151A5F26B55B4DE49D45CCB1858ED65136AE*)L_4)->___left;
+		if (!L_5)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:62>
+		((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59_StaticFields*)il2cpp_codegen_static_fields_for(HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59_il2cpp_TypeInfo_var))->___handLeft = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59_StaticFields*)il2cpp_codegen_static_fields_for(HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59_il2cpp_TypeInfo_var))->___handLeft), (void*)__this);
+		return;
+	}
+
+IL_004a:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:64>
+		((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59_StaticFields*)il2cpp_codegen_static_fields_for(HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59_il2cpp_TypeInfo_var))->___handRight = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59_StaticFields*)il2cpp_codegen_static_fields_for(HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59_il2cpp_TypeInfo_var))->___handRight), (void*)__this);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:65>
+		return;
+	}
+}
+// Method Definition Index: 85201
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandControllerLink_Update_mB0AC05A52E55C9A35A9B3C4287C8CFCFF0B2410E (XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:69>
+		int32_t L_0 = __this->___role;
+		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_1 = __this->___devices;
+		InputDevices_GetDevicesAtXRNode_m3371E3BD10324AE9CA741119693542E624CB5F46(L_0, L_1, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:70>
+		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_2 = __this->___devices;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_inline(L_2, List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_RuntimeMethod_var);
+		if ((((int32_t)L_3) <= ((int32_t)0)))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:71>
+		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_4 = __this->___devices;
+		NullCheck(L_4);
+		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD L_5;
+		L_5 = List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2(L_4, 0, List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2_RuntimeMethod_var);
+		__this->___device = L_5;
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:73>
+		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD L_6 = __this->___device;
+		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* L_7 = (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD*)(&__this->___device);
+		bool L_8;
+		L_8 = InputDevice_get_isValid_mA908CF8195CECA44FF457430AFF9198C3FEC0948(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_011a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:75>
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_9 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)__this)->___hand;
+		int32_t L_10 = __this->___grabAxis;
+		float L_11;
+		L_11 = XRHandControllerLink_GetAxis_m978F26B462A2A29BB6ECA614984D221DCF94F353(__this, L_10, NULL);
+		int32_t L_12 = __this->___squeezeAxis;
+		float L_13;
+		L_13 = XRHandControllerLink_GetAxis_m978F26B462A2A29BB6ECA614984D221DCF94F353(__this, L_12, NULL);
+		NullCheck(L_9);
+		Hand_SetGrip_m0DD7ED9C2560BA8CE683BDE4A27ADE8138D2CB6B(L_9, L_11, L_13, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:78>
+		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* L_14 = (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD*)(&__this->___device);
+		int32_t L_15 = __this->___grabButton;
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_16;
+		L_16 = XRHandControllerLink_GetCommonButton_mE75B4CECD80702AF25E5892F9B9C7BFA81AA06ED(L_15, NULL);
+		bool L_17;
+		L_17 = InputDevice_TryGetFeatureValue_m24EC3B6C41AE4098269427232AD5F52E786BF884(L_14, L_16, (&V_0), NULL);
+		if (!L_17)
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:79>
+		bool L_18 = __this->___grabbing;
+		if (!L_18)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		bool L_19 = V_0;
+		if (L_19)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:80>
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_20 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)__this)->___hand;
+		NullCheck(L_20);
+		VirtualActionInvoker0::Invoke(18, L_20);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:81>
+		__this->___grabbing = (bool)0;
+		goto IL_00c3;
+	}
+
+IL_00a4:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:83>
+		bool L_21 = __this->___grabbing;
+		bool L_22 = V_0;
+		if (!((int32_t)(((((int32_t)L_21) == ((int32_t)0))? 1 : 0)&(int32_t)L_22)))
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:84>
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_23 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)__this)->___hand;
+		NullCheck(L_23);
+		VirtualActionInvoker0::Invoke(13, L_23);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:85>
+		__this->___grabbing = (bool)1;
+	}
+
+IL_00c3:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:89>
+		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* L_24 = (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD*)(&__this->___device);
+		int32_t L_25 = __this->___squeezeButton;
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_26;
+		L_26 = XRHandControllerLink_GetCommonButton_mE75B4CECD80702AF25E5892F9B9C7BFA81AA06ED(L_25, NULL);
+		bool L_27;
+		L_27 = InputDevice_TryGetFeatureValue_m24EC3B6C41AE4098269427232AD5F52E786BF884(L_24, L_26, (&V_1), NULL);
+		if (!L_27)
+		{
+			goto IL_011a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:90>
+		bool L_28 = __this->___squeezing;
+		if (!L_28)
+		{
+			goto IL_00fb;
+		}
+	}
+	{
+		bool L_29 = V_1;
+		if (L_29)
+		{
+			goto IL_00fb;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:91>
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_30 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)__this)->___hand;
+		NullCheck(L_30);
+		VirtualActionInvoker0::Invoke(23, L_30);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:92>
+		__this->___squeezing = (bool)0;
+		return;
+	}
+
+IL_00fb:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:94>
+		bool L_31 = __this->___squeezing;
+		bool L_32 = V_1;
+		if (!((int32_t)(((((int32_t)L_31) == ((int32_t)0))? 1 : 0)&(int32_t)L_32)))
+		{
+			goto IL_011a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:95>
+		Hand_t76C22D8D17BD510B945B3685E3FE405522193E5F* L_33 = ((HandControllerLink_tC3AED89AE2B13BBC33BE02FC5D437776A88DAD59*)__this)->___hand;
+		NullCheck(L_33);
+		VirtualActionInvoker0::Invoke(21, L_33);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:96>
+		__this->___squeezing = (bool)1;
+	}
+
+IL_011a:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:100>
+		return;
+	}
+}
+// Method Definition Index: 85202
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* XRHandControllerLink_Devices_mB6F1733B9348040E5BAA0F4FC772F152D04909B4 (XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:102>
+		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_0 = __this->___devices;
+		return L_0;
+	}
+}
+// Method Definition Index: 85203
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRHandControllerLink_ButtonPressed_m4ACF17435EF43EC7818D0455C923CCC3936B5787 (XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* __this, int32_t ___0_button, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:106>
+		int32_t L_0 = ___0_button;
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)11)))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:107>
+		return (bool)0;
+	}
+
+IL_0007:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:109>
+		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* L_1 = (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD*)(&__this->___device);
+		int32_t L_2 = ___0_button;
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_3;
+		L_3 = XRHandControllerLink_GetCommonButton_mE75B4CECD80702AF25E5892F9B9C7BFA81AA06ED(L_2, NULL);
+		bool L_4;
+		L_4 = InputDevice_TryGetFeatureValue_m24EC3B6C41AE4098269427232AD5F52E786BF884(L_1, L_3, (&V_0), NULL);
+		if (!L_4)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:110>
+		bool L_5 = V_0;
+		return L_5;
+	}
+
+IL_001e:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:113>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 85204
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRHandControllerLink_GetAxis_m978F26B462A2A29BB6ECA614984D221DCF94F353 (XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* __this, int32_t ___0_axis, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:118>
+		int32_t L_0 = ___0_axis;
+		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:119>
+		return (0.0f);
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:121>
+		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* L_1 = (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD*)(&__this->___device);
+		int32_t L_2 = ___0_axis;
+		InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 L_3;
+		L_3 = XRHandControllerLink_GetCommonAxis_m345929905145554DD0F1EBD72210435E1EC4CF2B(L_2, NULL);
+		bool L_4;
+		L_4 = InputDevice_TryGetFeatureValue_m675D52240379FEF80D6499B5031941812FDFD081(L_1, L_3, (&V_0), NULL);
+		if (!L_4)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:122>
+		float L_5 = V_0;
+		return L_5;
+	}
+
+IL_0021:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:124>
+		return (0.0f);
+	}
+}
+// Method Definition Index: 85205
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 XRHandControllerLink_GetAxis2D_mD86260403C989761DFEDE33F5945DF497D623943 (XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* __this, int32_t ___0_axis, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:129>
+		int32_t L_0 = ___0_axis;
+		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:130>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
+		L_1 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		return L_1;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:132>
+		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* L_2 = (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD*)(&__this->___device);
+		int32_t L_3 = ___0_axis;
+		InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C L_4;
+		L_4 = XRHandControllerLink_GetCommon2DAxis_m7811A0F4923B267315C3EC99140D34BE73E0160F(L_3, NULL);
+		bool L_5;
+		L_5 = InputDevice_TryGetFeatureValue_mB2C15D1FC747DA9FB5958FA17E77049886FB3BBA(L_2, L_4, (&V_0), NULL);
+		if (!L_5)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:133>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = V_0;
+		return L_6;
+	}
+
+IL_0021:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:135>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
+		L_7 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		return L_7;
+	}
+}
+// Method Definition Index: 85206
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandControllerLink_TryHapticImpulse_mB04D81798043AFC05DD9CBEA2A3F51DC250D75E8 (XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* __this, float ___0_duration, float ___1_amp, float ___2_freq, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m7B899035F29D732606CA6BA2253BEBD41BECD3DC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m5267F7AD322ED3F12B552EC1C62F059932803E2E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m7D19F033982951230B318A08E829850451459AAE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m099EE1B978423A69DAE032836B6FC9A39F7D1EE6_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	HapticCapabilities_t4F7DFEDA7457938D39B877F6A86901F7A6788211 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:140>
+		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_0;
+		L_0 = XRHandControllerLink_Devices_mB6F1733B9348040E5BAA0F4FC772F152D04909B4_inline(__this, NULL);
+		NullCheck(L_0);
+		Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01 L_1;
+		L_1 = List_1_GetEnumerator_m099EE1B978423A69DAE032836B6FC9A39F7D1EE6(L_0, List_1_GetEnumerator_m099EE1B978423A69DAE032836B6FC9A39F7D1EE6_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0040:
+			{
+				Enumerator_Dispose_m7B899035F29D732606CA6BA2253BEBD41BECD3DC((&V_0), Enumerator_Dispose_m7B899035F29D732606CA6BA2253BEBD41BECD3DC_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0035_1;
+			}
+
+IL_000e_1:
+			{
+				//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:140>
+				InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD L_2;
+				L_2 = Enumerator_get_Current_m7D19F033982951230B318A08E829850451459AAE_inline((&V_0), Enumerator_get_Current_m7D19F033982951230B318A08E829850451459AAE_RuntimeMethod_var);
+				V_1 = L_2;
+				//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:141>
+				bool L_3;
+				L_3 = InputDevice_TryGetHapticCapabilities_mC97EE9A231941988E8B6FA8AF0CB310EFE1B77A3((&V_1), (&V_2), NULL);
+				if (!L_3)
+				{
+					goto IL_0035_1;
+				}
+			}
+			{
+				bool L_4;
+				L_4 = HapticCapabilities_get_supportsImpulse_m855193672304BD935913E215B690B14952E0C59C((&V_2), NULL);
+				if (!L_4)
+				{
+					goto IL_0035_1;
+				}
+			}
+			{
+				//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:142>
+				float L_5 = ___1_amp;
+				float L_6 = ___0_duration;
+				bool L_7;
+				L_7 = InputDevice_SendHapticImpulse_m7166A784508F8E0F3AE5BD88863171C7A905BC1B((&V_1), 0, L_5, L_6, NULL);
+			}
+
+IL_0035_1:
+			{
+				//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:140>
+				bool L_8;
+				L_8 = Enumerator_MoveNext_m5267F7AD322ED3F12B552EC1C62F059932803E2E((&V_0), Enumerator_MoveNext_m5267F7AD322ED3F12B552EC1C62F059932803E2E_RuntimeMethod_var);
+				if (L_8)
+				{
+					goto IL_000e_1;
+				}
+			}
+			{
+				goto IL_004e;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_004e:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:145>
+		return;
+	}
+}
+// Method Definition Index: 85207
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 XRHandControllerLink_GetCommonButton_mE75B4CECD80702AF25E5892F9B9C7BFA81AA06ED (int32_t ___0_button, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:149>
+		int32_t L_0 = ___0_button;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:150>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_1 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___gripButton;
+		return L_1;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:151>
+		int32_t L_2 = ___0_button;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:152>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_3 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___menuButton;
+		return L_3;
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:153>
+		int32_t L_4 = ___0_button;
+		if ((!(((uint32_t)L_4) == ((uint32_t)5))))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:154>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_5 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisClick;
+		return L_5;
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:155>
+		int32_t L_6 = ___0_button;
+		if ((!(((uint32_t)L_6) == ((uint32_t)6))))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:156>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_7 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxisTouch;
+		return L_7;
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:157>
+		int32_t L_8 = ___0_button;
+		if ((!(((uint32_t)L_8) == ((uint32_t)2))))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:158>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_9 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryButton;
+		return L_9;
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:159>
+		int32_t L_10 = ___0_button;
+		if ((!(((uint32_t)L_10) == ((uint32_t)((int32_t)9)))))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:160>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_11 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primaryTouch;
+		return L_11;
+	}
+
+IL_003c:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:162>
+		int32_t L_12 = ___0_button;
+		if ((!(((uint32_t)L_12) == ((uint32_t)7))))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:163>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_13 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisClick;
+		return L_13;
+	}
+
+IL_0046:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:164>
+		int32_t L_14 = ___0_button;
+		if ((!(((uint32_t)L_14) == ((uint32_t)8))))
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:165>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_15 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxisTouch;
+		return L_15;
+	}
+
+IL_0050:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:167>
+		int32_t L_16 = ___0_button;
+		if ((!(((uint32_t)L_16) == ((uint32_t)3))))
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:168>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_17 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryButton;
+		return L_17;
+	}
+
+IL_005a:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:169>
+		int32_t L_18 = ___0_button;
+		if ((!(((uint32_t)L_18) == ((uint32_t)((int32_t)10)))))
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:170>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_19 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondaryTouch;
+		return L_19;
+	}
+
+IL_0065:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:172>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_20 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___triggerButton;
+		return L_20;
+	}
+}
+// Method Definition Index: 85208
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 XRHandControllerLink_GetCommonAxis_m345929905145554DD0F1EBD72210435E1EC4CF2B (int32_t ___0_axis, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:176>
+		int32_t L_0 = ___0_axis;
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:177>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 L_1 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___grip;
+		return L_1;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:179>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_t311D0F42F1A7BF37D3CEAC15A53A1F24165F1848 L_2 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___trigger;
+		return L_2;
+	}
+}
+// Method Definition Index: 85209
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C XRHandControllerLink_GetCommon2DAxis_m7811A0F4923B267315C3EC99140D34BE73E0160F (int32_t ___0_axis, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:183>
+		int32_t L_0 = ___0_axis;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:184>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C L_1 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___primary2DAxis;
+		return L_1;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:186>
+		il2cpp_codegen_runtime_class_init_inline(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var);
+		InputFeatureUsage_1_tEB160A05BCDCCA4F96072CBA0866498D06B9A27C L_2 = ((CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_StaticFields*)il2cpp_codegen_static_fields_for(CommonUsages_t9208F514F1E77BE70AC53EFEC94D57EDDAF3B8E1_il2cpp_TypeInfo_var))->___secondary2DAxis;
+		return L_2;
+	}
+}
+// Method Definition Index: 85210
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandControllerLink__ctor_m90B4B278F48DA8C89FB33909ABB8FD2E1149F132 (XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:38>
+		__this->___grabButton = 4;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:41>
+		__this->___squeezeAxis = 1;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:49>
+		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_0 = (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE*)il2cpp_codegen_object_new(List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_il2cpp_TypeInfo_var);
+		List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4(L_0, List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_RuntimeMethod_var);
+		__this->___devices = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___devices), (void*)L_0);
+		HandControllerLink__ctor_m0838228681DF236A1DADC8E935A6BEEF4C0F8684(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85211
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayerControllerLink_Update_m10F81836A11E058777F48F82EA92CCE037AB6B2F (XRHandPlayerControllerLink_t8056403B5DAF408743EF34B7ECCF45EA4EABB048* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPlayerControllerLink.cs:19>
+		AutoHandPlayer_t659A159B183D187AB5BE6D459CD27FFD8B8459EE* L_0 = __this->___player;
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_1 = __this->___moveController;
+		int32_t L_2 = __this->___moveAxis;
+		NullCheck(L_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
+		L_3 = XRHandControllerLink_GetAxis2D_mD86260403C989761DFEDE33F5945DF497D623943(L_1, L_2, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker3< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, bool, bool >::Invoke(10, L_0, L_3, (bool)1, (bool)0);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPlayerControllerLink.cs:20>
+		AutoHandPlayer_t659A159B183D187AB5BE6D459CD27FFD8B8459EE* L_4 = __this->___player;
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_5 = __this->___turnController;
+		int32_t L_6 = __this->___turnAxis;
+		NullCheck(L_5);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
+		L_7 = XRHandControllerLink_GetAxis2D_mD86260403C989761DFEDE33F5945DF497D623943(L_5, L_6, NULL);
+		float L_8 = L_7.___x;
+		NullCheck(L_4);
+		VirtualActionInvoker1< float >::Invoke(11, L_4, L_8);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPlayerControllerLink.cs:21>
+		return;
+	}
+}
+// Method Definition Index: 85212
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayerControllerLink_FixedUpdate_m525F5440AAA99D438BB8BA747B9741F29D24F9C5 (XRHandPlayerControllerLink_t8056403B5DAF408743EF34B7ECCF45EA4EABB048* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPlayerControllerLink.cs:23>
+		AutoHandPlayer_t659A159B183D187AB5BE6D459CD27FFD8B8459EE* L_0 = __this->___player;
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_1 = __this->___moveController;
+		int32_t L_2 = __this->___moveAxis;
+		NullCheck(L_1);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
+		L_3 = XRHandControllerLink_GetAxis2D_mD86260403C989761DFEDE33F5945DF497D623943(L_1, L_2, NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker3< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, bool, bool >::Invoke(10, L_0, L_3, (bool)1, (bool)0);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPlayerControllerLink.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 85213
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPlayerControllerLink__ctor_m7D9D903934488A3F62B566C43E65FA2EEAD3EDF2 (XRHandPlayerControllerLink_t8056403B5DAF408743EF34B7ECCF45EA4EABB048* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85214
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPointGrabLink_Start_m2D5576BC83CC24D95A130CAF9BF88EF2E23EEFF8 (XRHandPointGrabLink_t9E97F842DC3DE66846406D508F99C1594509DCC4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisHandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328_m7778E5496EA1A7FA95F54084B250CBE56F077E3E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_m6F2A389D2E080E51F750EBEEF8ED193C88EC9BD0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1D5936637A300BE43209AC11F74C9A26EA306698);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC365DCA63888D68B04B9B7EE0C9FBE215B1F9687);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:18>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_0 = __this->___link;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:19>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_2;
+		L_2 = Component_GetComponentInParent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_m6F2A389D2E080E51F750EBEEF8ED193C88EC9BD0(__this, Component_GetComponentInParent_TisXRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D_m6F2A389D2E080E51F750EBEEF8ED193C88EC9BD0_RuntimeMethod_var);
+		__this->___link = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___link), (void*)L_2);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:20>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_3 = __this->___link;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:21>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteralC365DCA63888D68B04B9B7EE0C9FBE215B1F9687, __this, NULL);
+	}
+
+IL_0033:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:24>
+		HandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328* L_5 = __this->___pointGrab;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:25>
+		HandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328* L_7;
+		L_7 = Component_GetComponentInParent_TisHandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328_m7778E5496EA1A7FA95F54084B250CBE56F077E3E(__this, Component_GetComponentInParent_TisHandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328_m7778E5496EA1A7FA95F54084B250CBE56F077E3E_RuntimeMethod_var);
+		__this->___pointGrab = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___pointGrab), (void*)L_7);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:26>
+		HandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328* L_8 = __this->___pointGrab;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:27>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(_stringLiteral1D5936637A300BE43209AC11F74C9A26EA306698, __this, NULL);
+	}
+
+IL_0066:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:29>
+		return;
+	}
+}
+// Method Definition Index: 85215
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPointGrabLink_Update_m675EBEF57E81BBB757BBAA84BFA6B3AE3A336356 (XRHandPointGrabLink_t9E97F842DC3DE66846406D508F99C1594509DCC4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:32>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_0 = __this->___link;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		HandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328* L_2 = __this->___pointGrab;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:33>
+		return;
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:35>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_4 = __this->___link;
+		int32_t L_5 = __this->___pointInput;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = XRHandControllerLink_ButtonPressed_m4ACF17435EF43EC7818D0455C923CCC3936B5787(L_4, L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		bool L_7 = __this->___pointing;
+		if (L_7)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:36>
+		__this->___pointing = (bool)1;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:37>
+		HandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328* L_8 = __this->___pointGrab;
+		NullCheck(L_8);
+		VirtualActionInvoker0::Invoke(4, L_8);
+	}
+
+IL_004a:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:40>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_9 = __this->___link;
+		int32_t L_10 = __this->___pointInput;
+		NullCheck(L_9);
+		bool L_11;
+		L_11 = XRHandControllerLink_ButtonPressed_m4ACF17435EF43EC7818D0455C923CCC3936B5787(L_9, L_10, NULL);
+		if (L_11)
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		bool L_12 = __this->___pointing;
+		if (!L_12)
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:41>
+		__this->___pointing = (bool)0;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:42>
+		HandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328* L_13 = __this->___pointGrab;
+		NullCheck(L_13);
+		VirtualActionInvoker0::Invoke(5, L_13);
+	}
+
+IL_0077:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:46>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_14 = __this->___link;
+		int32_t L_15 = __this->___selectInput;
+		NullCheck(L_14);
+		bool L_16;
+		L_16 = XRHandControllerLink_ButtonPressed_m4ACF17435EF43EC7818D0455C923CCC3936B5787(L_14, L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		bool L_17 = __this->___selecting;
+		if (L_17)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:47>
+		__this->___selecting = (bool)1;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:48>
+		HandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328* L_18 = __this->___pointGrab;
+		NullCheck(L_18);
+		VirtualActionInvoker0::Invoke(8, L_18);
+	}
+
+IL_00a4:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:51>
+		XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* L_19 = __this->___link;
+		int32_t L_20 = __this->___selectInput;
+		NullCheck(L_19);
+		bool L_21;
+		L_21 = XRHandControllerLink_ButtonPressed_m4ACF17435EF43EC7818D0455C923CCC3936B5787(L_19, L_20, NULL);
+		if (L_21)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		bool L_22 = __this->___selecting;
+		if (!L_22)
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:52>
+		__this->___selecting = (bool)0;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:53>
+		HandDistanceGrabber_t0CDA01E47E37019EE03178C0C48E95A390EFC328* L_23 = __this->___pointGrab;
+		NullCheck(L_23);
+		VirtualActionInvoker0::Invoke(9, L_23);
+	}
+
+IL_00d1:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandPointGrabLink.cs:55>
+		return;
+	}
+}
+// Method Definition Index: 85216
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHandPointGrabLink__ctor_m2CFE4296DAFFC388C104CF1113A4751CCFB5E996 (XRHandPointGrabLink_t9E97F842DC3DE66846406D508F99C1594509DCC4* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85217
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHeadTracking_Start_mB7553DBA96DA6CBEC7E2FCD2361CC7C308070BAA (XRHeadTracking_tB1A4055C91F911CF9F8D45717B7B069FFAEE26A0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mC249FC827BC3BE999A938F8B5BD884F8AA0CB7FA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mF8DDB0BDC273D655115D5E62307ADF657EC28DE5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m69C3B0FCDB85116A8F7AB368DC33EBCC27556F0E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t90832B88D7207769654164CC28440CF594CC397D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemManager_GetSubsystems_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m9B556FE7439236CF6F5643A62BC660E4E6DE1CDE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t90832B88D7207769654164CC28440CF594CC397D* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHeadTracking.cs:12>
+		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_0 = (List_1_t90832B88D7207769654164CC28440CF594CC397D*)il2cpp_codegen_object_new(List_1_t90832B88D7207769654164CC28440CF594CC397D_il2cpp_TypeInfo_var);
+		List_1__ctor_mC249FC827BC3BE999A938F8B5BD884F8AA0CB7FA(L_0, List_1__ctor_mC249FC827BC3BE999A938F8B5BD884F8AA0CB7FA_RuntimeMethod_var);
+		V_0 = L_0;
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHeadTracking.cs:13>
+		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_1 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
+		SubsystemManager_GetSubsystems_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m9B556FE7439236CF6F5643A62BC660E4E6DE1CDE(L_1, SubsystemManager_GetSubsystems_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_m9B556FE7439236CF6F5643A62BC660E4E6DE1CDE_RuntimeMethod_var);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHeadTracking.cs:14>
+		V_1 = 0;
+		goto IL_0027;
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHeadTracking.cs:15>
+		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_2 = V_0;
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_4;
+		L_4 = List_1_get_Item_m69C3B0FCDB85116A8F7AB368DC33EBCC27556F0E(L_2, L_3, List_1_get_Item_m69C3B0FCDB85116A8F7AB368DC33EBCC27556F0E_RuntimeMethod_var);
+		int32_t L_5 = __this->___mode;
+		NullCheck(L_4);
+		bool L_6;
+		L_6 = XRInputSubsystem_TrySetTrackingOriginMode_m132C190CEAE4403A381BF1C1C4B5FF349F2A3FA7(L_4, L_5, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHeadTracking.cs:14>
+		int32_t L_7 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_7, 1));
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHeadTracking.cs:14>
+		int32_t L_8 = V_1;
+		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_9 = V_0;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = List_1_get_Count_mF8DDB0BDC273D655115D5E62307ADF657EC28DE5_inline(L_9, List_1_get_Count_mF8DDB0BDC273D655115D5E62307ADF657EC28DE5_RuntimeMethod_var);
+		if ((((int32_t)L_8) < ((int32_t)L_10)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHeadTracking.cs:17>
+		return;
+	}
+}
+// Method Definition Index: 85218
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRHeadTracking__ctor_m4BE162884962B2EB934F86312AF28906D290D358 (XRHeadTracking_tB1A4055C91F911CF9F8D45717B7B069FFAEE26A0* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHeadTracking.cs:9>
+		__this->___mode = 4;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 85219
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRTeleporterLink_Start_mDDDA4BE6372898B8271974EF3F17287FA7D4052F (XRTeleporterLink_tE3DAA98277F866D1B7F883EEFE6AB717D7EE9059* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRTeleporterLink.cs:17>
+		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_0 = (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE*)il2cpp_codegen_object_new(List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE_il2cpp_TypeInfo_var);
+		List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4(L_0, List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_RuntimeMethod_var);
+		__this->___devices = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___devices), (void*)L_0);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRTeleporterLink.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 85220
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRTeleporterLink_FixedUpdate_mE791584F2F9F66F81D326ED7BFF5AF634840C79D (XRTeleporterLink_tE3DAA98277F866D1B7F883EEFE6AB717D7EE9059* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRTeleporterLink.cs:21>
+		int32_t L_0 = __this->___role;
+		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_1 = __this->___devices;
+		InputDevices_GetDevicesAtXRNode_m3371E3BD10324AE9CA741119693542E624CB5F46(L_0, L_1, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRTeleporterLink.cs:22>
+		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_2 = __this->___devices;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_inline(L_2, List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_RuntimeMethod_var);
+		if ((((int32_t)L_3) <= ((int32_t)0)))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRTeleporterLink.cs:23>
+		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_4 = __this->___devices;
+		NullCheck(L_4);
+		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD L_5;
+		L_5 = List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2(L_4, 0, List_1_get_Item_mB0ED54544433CE428ACEC0FE2E6FEE53E11EE6D2_RuntimeMethod_var);
+		__this->___device = L_5;
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRTeleporterLink.cs:25>
+		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD L_6 = __this->___device;
+		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* L_7 = (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD*)(&__this->___device);
+		bool L_8;
+		L_8 = InputDevice_get_isValid_mA908CF8195CECA44FF457430AFF9198C3FEC0948(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRTeleporterLink.cs:27>
+		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD* L_9 = (InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD*)(&__this->___device);
+		int32_t L_10 = __this->___button;
+		InputFeatureUsage_1_tE336B2F0B9AC721519BFA17A08D6353FD5221637 L_11;
+		L_11 = XRHandControllerLink_GetCommonButton_mE75B4CECD80702AF25E5892F9B9C7BFA81AA06ED(L_10, NULL);
+		bool L_12;
+		L_12 = InputDevice_TryGetFeatureValue_m24EC3B6C41AE4098269427232AD5F52E786BF884(L_9, L_11, (&V_0), NULL);
+		if (!L_12)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRTeleporterLink.cs:28>
+		bool L_13 = __this->___teleporting;
+		if (!L_13)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		bool L_14 = V_0;
+		if (L_14)
+		{
+			goto IL_007d;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRTeleporterLink.cs:29>
+		Teleporter_tC1177D1FA857B1357E1D55F46FE9E106EB3397CB* L_15 = __this->___hand;
+		NullCheck(L_15);
+		Teleporter_Teleport_m961A45F23B3DF5C9CB0E865C18BA655FB4C852EB(L_15, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRTeleporterLink.cs:30>
+		__this->___teleporting = (bool)0;
+		return;
+	}
+
+IL_007d:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRTeleporterLink.cs:32>
+		bool L_16 = __this->___teleporting;
+		bool L_17 = V_0;
+		if (!((int32_t)(((((int32_t)L_16) == ((int32_t)0))? 1 : 0)&(int32_t)L_17)))
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRTeleporterLink.cs:33>
+		Teleporter_tC1177D1FA857B1357E1D55F46FE9E106EB3397CB* L_18 = __this->___hand;
+		NullCheck(L_18);
+		Teleporter_StartTeleport_mEB1FA1848E8175B8A020C57F7958B42DF2AB298A(L_18, NULL);
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRTeleporterLink.cs:34>
+		__this->___teleporting = (bool)1;
+	}
+
+IL_009c:
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRTeleporterLink.cs:38>
+		return;
+	}
+}
+// Method Definition Index: 85221
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRTeleporterLink__ctor_m3BA70C15CE6CD1338A4FA5EB5B287A7200345CD3 (XRTeleporterLink_tE3DAA98277F866D1B7F883EEFE6AB717D7EE9059* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 45451
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 45418
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+// Method Definition Index: 45450
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 45442
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 45594
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_v, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_v;
+		float L_1 = L_0.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_v;
+		float L_3 = L_2.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_4), L_1, L_3, (0.0f), NULL);
+		V_0 = L_4;
+		goto IL_001a;
+	}
+
+IL_001a:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 45487
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_euler;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_0, (0.0174532924f), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
+		L_2 = Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E(L_1, NULL);
+		V_0 = L_2;
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = V_0;
+		return L_3;
+	}
+}
+// Method Definition Index: 45453
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		return L_10;
+	}
+}
+// Method Definition Index: 45486
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m9262AB29E3E9CE94EF71051F38A28E82AEC73F90_inline (float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		float L_0 = ___0_x;
+		float L_1 = ___1_y;
+		float L_2 = ___2_z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_3), L_0, L_1, L_2, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_3, (0.0174532924f), NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5;
+		L_5 = Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E(L_4, NULL);
+		V_0 = L_5;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 45477
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_lhs;
+		float L_1 = L_0.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = ___0_lhs;
+		float L_5 = L_4.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = ___1_rhs;
+		float L_7 = L_6.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = ___0_lhs;
+		float L_9 = L_8.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = ___0_lhs;
+		float L_13 = L_12.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = ___1_rhs;
+		float L_15 = L_14.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = ___0_lhs;
+		float L_17 = L_16.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = ___1_rhs;
+		float L_19 = L_18.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = ___0_lhs;
+		float L_21 = L_20.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = ___1_rhs;
+		float L_23 = L_22.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24 = ___0_lhs;
+		float L_25 = L_24.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26 = ___1_rhs;
+		float L_27 = L_26.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28 = ___0_lhs;
+		float L_29 = L_28.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30 = ___1_rhs;
+		float L_31 = L_30.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32 = ___0_lhs;
+		float L_33 = L_32.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34 = ___1_rhs;
+		float L_35 = L_34.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36 = ___0_lhs;
+		float L_37 = L_36.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38 = ___1_rhs;
+		float L_39 = L_38.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_40 = ___0_lhs;
+		float L_41 = L_40.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42 = ___1_rhs;
+		float L_43 = L_42.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_44 = ___0_lhs;
+		float L_45 = L_44.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_46 = ___1_rhs;
+		float L_47 = L_46.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_48 = ___0_lhs;
+		float L_49 = L_48.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_50 = ___1_rhs;
+		float L_51 = L_50.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_52 = ___0_lhs;
+		float L_53 = L_52.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_54 = ___1_rhs;
+		float L_55 = L_54.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_56 = ___0_lhs;
+		float L_57 = L_56.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_58 = ___1_rhs;
+		float L_59 = L_58.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60 = ___0_lhs;
+		float L_61 = L_60.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_62 = ___1_rhs;
+		float L_63 = L_62.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_64;
+		memset((&L_64), 0, sizeof(L_64));
+		Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline((&L_64), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11)))), ((float)il2cpp_codegen_multiply(L_13, L_15)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_17, L_19)), ((float)il2cpp_codegen_multiply(L_21, L_23)))), ((float)il2cpp_codegen_multiply(L_25, L_27)))), ((float)il2cpp_codegen_multiply(L_29, L_31)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_33, L_35)), ((float)il2cpp_codegen_multiply(L_37, L_39)))), ((float)il2cpp_codegen_multiply(L_41, L_43)))), ((float)il2cpp_codegen_multiply(L_45, L_47)))), ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_49, L_51)), ((float)il2cpp_codegen_multiply(L_53, L_55)))), ((float)il2cpp_codegen_multiply(L_57, L_59)))), ((float)il2cpp_codegen_multiply(L_61, L_63)))), NULL);
+		V_0 = L_64;
+		goto IL_00e5;
+	}
+
+IL_00e5:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_65 = V_0;
+		return L_65;
+	}
+}
+// Method Definition Index: 45595
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___zeroVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 85202
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* XRHandControllerLink_Devices_mB6F1733B9348040E5BAA0F4FC772F152D04909B4_inline (XRHandControllerLink_t37E534F8DA7163B3D236C117C52C6EB732C49A8D* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Luka Deimos/coffe prototype/Assets/AutoHand/Examples/Scenes/XR/Scripts/XRHandControllerLink.cs:102>
+		List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* L_0 = __this->___devices;
+		return L_0;
+	}
+}
+// Method Definition Index: 9130
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD Enumerator_get_Current_m7D19F033982951230B318A08E829850451459AAE_gshared_inline (Enumerator_t2A0DD7C3F41DE0D8FD672B874BDDB066261ECB01* __this, const RuntimeMethod* method) 
+{
+	{
+		InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 9071
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m9C3EC7FE1A9401268B3C9761A4D96A37197AD0E7_gshared_inline (List_1_tB66D13E0427CA48C600AEA4DBA5B173C3734C6CE* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+// Method Definition Index: 9071
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+// Method Definition Index: 45475
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		float L_3 = ___3_w;
+		__this->___w = L_3;
+		return;
+	}
+}
